@@ -68,8 +68,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         follow: true,
       },
     },
+    // Page path becomes canonical via metadataBase; languages cover locale roots.
     alternates: {
-      canonical: `/${locale}`,
       languages: {
         tr: "/tr",
         en: "/en",
@@ -82,7 +82,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
       locale: ogLocale,
       alternateLocale: locale === "tr" ? ["en_US"] : ["tr_TR"],
-      url: `/${locale}`,
       siteName: t("siteName"),
       images: [
         {
