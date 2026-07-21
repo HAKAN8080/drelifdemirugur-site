@@ -198,7 +198,7 @@ export function ContactForm() {
         >
           {t("submit")}
         </button>
-        <p className="mt-4 text-xs text-cloud-muted/70">{t("legalNotice")}</p>
+        <p className="mt-4 text-base text-cloud-muted/70">{t("legalNotice")}</p>
       </form>
     </div>
   );
