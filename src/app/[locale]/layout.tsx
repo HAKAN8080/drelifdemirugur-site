@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { getMessages, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Cormorant_Garamond, Source_Sans_3 } from "next/font/google";
 import { routing } from "@/i18n/routing";
@@ -27,17 +27,93 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
+const SITE_URL = "https://drelifdemirugur.com";
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta" });
+  const ogLocale = locale === "tr" ? "tr_TR" : "en_US";
 
-export const metadata: Metadata = {
-  icons: {
-    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
-    shortcut: "/favicon.svg",
-    apple: "/favicon.svg",
-  },
+  return {
+    metadataBase: new URL(SITE_URL),
+    title: {
+      default: t("title"),
+      template: `%s · ${t("siteName")}`,
+    },
+    description: t("description"),
+    authors: [{ name: "Dr. Elif Demir Uğur", url: SITE_URL }],
+    creator: "Dr. Elif Demir Uğur",
+    keywords: [
+      "Elif Demir Uğur",
+      "Dr. Elif Demir Uğur",
+      "drelifdemirugur",
+      "yazar",
+      "koç",
+      "mentor",
+      "Aurora",
+      "Kadim Dil Mitleri",
+      "Thorius",
+      "author",
+      "coach",
+    ],
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+      },
+    },
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        tr: "/tr",
+        en: "/en",
+        "x-default": "/tr",
+      },
+    },
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      type: "website",
+      locale: ogLocale,
+      alternateLocale: locale === "tr" ? ["en_US"] : ["tr_TR"],
+      url: `/${locale}`,
+      siteName: t("siteName"),
+      images: [
+        {
+          url: "/portrait.png",
+          width: 1200,
+          height: 1600,
+          alt: t("siteName"),
+        },
+      ],
+    },
+    // TODO: Google Search Console verification — paste code when available:
+    // verification: { google: "CODE" },
+    icons: {
+      icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+      shortcut: "/favicon.svg",
+      apple: "/favicon.svg",
+    },
+  };
+}
+
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Dr. Elif Demir Uğur",
+  jobTitle: "Author, Coach, Mentor",
+  url: SITE_URL,
+  sameAs: [
+    "https://www.linkedin.com/in/dr-elif-demir-u%C4%9Fur-edu-b90b013b/",
+    "https://medium.com/@theevolvedwoman",
+    "https://thorius.com.tr",
+  ],
 };
 
 export default async function LocaleLayout({ children, params }: Props) {
@@ -50,6 +126,10 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale} className={`${display.variable} ${body.variable}`}>
       <body className="flex min-h-screen flex-col font-[family-name:var(--font-body)] antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        />
         <NextIntlClientProvider messages={messages}>
           <SiteHeader />
           <main className="flex-1">{children}</main>
