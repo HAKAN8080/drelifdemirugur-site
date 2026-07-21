@@ -14,14 +14,108 @@ const EXTERNAL = [
   { href: "https://academy.thorius.com.tr", label: "Thorius Academy" },
 ];
 
+// Moderation blocklist (Turkish + English profanity/insults). Matched per
+// token after Turkish-aware lowercasing; longer entries also match as
+// prefixes to catch suffixed forms (e.g. "şerefsizsin").
+const BLOCKLIST = [
+  "amk",
+  "aq",
+  "oç",
+  "orospu",
+  "oruspu",
+  "piç",
+  "sik",
+  "sikeyim",
+  "sikerim",
+  "siktir",
+  "sikik",
+  "yarrak",
+  "yarak",
+  "göt",
+  "götveren",
+  "ibne",
+  "ipne",
+  "pezevenk",
+  "kahpe",
+  "sürtük",
+  "gavat",
+  "amcık",
+  "amcik",
+  "salak",
+  "gerizekalı",
+  "gerizekali",
+  "aptal",
+  "şerefsiz",
+  "serefsiz",
+  "haysiyetsiz",
+  "ahlaksız",
+  "ahlaksiz",
+  "dangalak",
+  "yavşak",
+  "puşt",
+  "kaltak",
+  "godoş",
+  "ananı",
+  "anani",
+  "avradını",
+  "bok",
+  "dallama",
+  "hödük",
+  "fuck",
+  "fucking",
+  "shit",
+  "bitch",
+  "asshole",
+  "bastard",
+  "cunt",
+  "whore",
+  "slut",
+  "motherfucker",
+  "dick",
+  "idiot",
+  "moron",
+];
+
+function containsBlockedWord(text: string) {
+  const tokens = text
+    .toLocaleLowerCase("tr-TR")
+    .split(/[^\p{L}]+/u)
+    .filter(Boolean);
+  return tokens.some((token) =>
+    BLOCKLIST.some((word) =>
+      word.length >= 5 ? token.startsWith(word) : token === word,
+    ),
+  );
+}
+
+function looksLikeSpam(message: string) {
+  const trimmed = message.trim();
+  if (trimmed.length < 10) return true;
+  const urls = trimmed.match(/https?:\/\/|www\./gi);
+  if (urls && urls.length >= 3) return true;
+  // Same character repeated 8+ times in a row.
+  if (/(.)\1{7,}/u.test(trimmed)) return true;
+  return false;
+}
+
 export function ContactForm() {
   const t = useTranslations("contact");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [blocked, setBlocked] = useState(false);
 
   function onSubmit(e: FormEvent) {
     e.preventDefault();
+    if (
+      containsBlockedWord(name) ||
+      containsBlockedWord(message) ||
+      looksLikeSpam(message)
+    ) {
+      setBlocked(true);
+      return;
+    }
+    setBlocked(false);
     const subject = encodeURIComponent(`drelifdemirugur.com — ${name}`);
     const body = encodeURIComponent(
       `${message}\n\n—\n${name}\n${email}`,
@@ -63,7 +157,10 @@ export function ContactForm() {
           <input
             required
             value={name}
-            onChange={(e) => setName(e.target.value)}
+            onChange={(e) => {
+              setName(e.target.value);
+              setBlocked(false);
+            }}
             className="mt-1 w-full border border-cloud-300 bg-white/70 px-3 py-2 outline-none focus:border-purple-500"
           />
         </label>
@@ -83,16 +180,25 @@ export function ContactForm() {
             required
             rows={6}
             value={message}
-            onChange={(e) => setMessage(e.target.value)}
+            onChange={(e) => {
+              setMessage(e.target.value);
+              setBlocked(false);
+            }}
             className="mt-1 w-full resize-y border border-cloud-300 bg-white/70 px-3 py-2 outline-none focus:border-purple-500"
           />
         </label>
+        {blocked && (
+          <p role="alert" className="text-sm text-red-600">
+            {t("blockedError")}
+          </p>
+        )}
         <button
           type="submit"
           className="btn-primary mt-2 self-start"
         >
           {t("submit")}
         </button>
+        <p className="mt-4 text-xs text-cloud-muted/70">{t("legalNotice")}</p>
       </form>
     </div>
   );

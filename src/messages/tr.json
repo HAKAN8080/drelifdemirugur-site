@@ -109,7 +109,9 @@
     "message": "Mesaj",
     "submit": "E-posta ile gönder",
     "note": "Telefon ve WhatsApp bu sitede yayınlanmamaktadır.",
-    "linksHeading": "Diğer kanallar"
+    "linksHeading": "Diğer kanallar",
+    "blockedError": "Mesajınız gönderilemedi. Lütfen uygun bir dil kullanın.",
+    "legalNotice": "Bu site ve iletişim yoluyla gönderilen mesajlar, anlaşmalı hukuk büromuz tarafından kontrol edilmektedir. Hakaret, tehdit ve spam içeren iletiler hakkında yasal işlem başlatılabilir."
   },
   "publications": {
     "title": "Akademik Yayınlar",

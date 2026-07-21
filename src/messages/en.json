@@ -109,7 +109,9 @@
     "message": "Message",
     "submit": "Send via email",
     "note": "Phone and WhatsApp are not published on this site.",
-    "linksHeading": "Other channels"
+    "linksHeading": "Other channels",
+    "blockedError": "Your message could not be sent. Please use appropriate language.",
+    "legalNotice": "This website and messages sent through it are monitored by our contracted law firm. Legal action may be taken against messages containing insults, threats, or spam."
   },
   "footer": {
     "rights": "All rights reserved."
