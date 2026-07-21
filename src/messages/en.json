@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "siteName": "Dr. Elif Demir Uğur",
+    "title": "Dr. Elif Demir Uğur — Author · Coach · Leader",
+    "description": "Authentic leadership, people & culture, and mythic storytelling. Ph.D., MCC, author."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "professional": "Professional",
+    "books": "Books",
+    "contact": "Contact",
+    "publications": "Publications"
+  },
+  "home": {
+    "eyebrow": "Dr. · Author · Coach",
+    "headline": "Authentic leadership and mythic storytelling — in one voice.",
+    "lead": "A personal home for culture architecture and literary myth.",
+    "ctaProfessional": "Professional path",
+    "ctaAuthor": "Author path",
+    "pillarProTitle": "Professional",
+    "pillarProText": "Thorius, coaching & mentoring, people & culture, AI-assisted development.",
+    "pillarAuthorTitle": "Author",
+    "pillarAuthorText": "Ancient Language Myths series — Aurora and forthcoming volumes."
+  },
+  "about": {
+    "title": "About",
+    "intro": "Dr. Elif Demir Uğur (EDU) is a scholar, Master Certified Coach (MCC), people & culture leader, and mythological novelist.",
+    "titlesHeading": "Credentials",
+    "titles": "Ph.D., MBA, MSc · MCC, ORSCC, NLP",
+    "bioHeading": "Journey",
+    "bio": "Over twenty-six years she has braided education, human resources, coaching, and mentoring. Co-founder of Thorius Eğitim ve Danışmanlık; founded and led Coaching & Mentoring at FLO Group; mentors STEM-graduate young women with UNDP; leads projects at ICF Turkey and founded the ICF Running Team. She is a senior executive who completed CHRO training at BMI Business School. Years as a mathematics teacher (MEF International, Avrupa Koleji, Kültür Koleji, MoNE) shaped her academic and pedagogical foundation.",
+    "langsHeading": "Languages",
+    "langs": "Turkish (native) · English (professional) · French, German, Italian, Spanish",
+    "volunteerHeading": "Volunteer work",
+    "volunteer": "As founder and project leader of the ICF Running Team, she organized charity runs for children’s education; provided volunteer coaching for TEGV and ÖRAV teachers; and supported TEMA nature projects.",
+    "honorsHeading": "Honors and Awards",
+    "honors": [
+      {
+        "title": "ICF ÖRAV — Support Education, Invest in the Future",
+        "issuer": "ICF Global · September 2019",
+        "description": "Volunteer coaching and mentoring for Ministry of Education teachers."
+      },
+      {
+        "title": "ICF Runs for Good",
+        "issuer": "ICF Global · September 2019",
+        "description": "Volunteer fundraising runs for children’s education."
+      },
+      {
+        "title": "TEGV Development Ladder",
+        "issuer": "ICF Global · September 2019",
+        "description": "Volunteer coaching and mentoring for TEGV teachers."
+      },
+      {
+        "title": "Certificate of Appreciation",
+        "issuer": "MEF Schools General Management · June 2011",
+        "description": "MSc mathematics teacher."
+      },
+      {
+        "title": "Certificate of Appreciation and Achievement",
+        "issuer": "TÜBİTAK – Ministry of Education, This Is My Work Project Competition · May 2009",
+        "description": ""
+      },
+      {
+        "title": "Certificate of Appreciation",
+        "issuer": "Bakırköy District Education Directorate · June 2008",
+        "description": "MSc mathematics teacher."
+      },
+      {
+        "title": "Certificate of Appreciation",
+        "issuer": "Kültür College Management · April 2008",
+        "description": "MSc mathematics teacher."
+      }
+    ]
+  },
+  "professional": {
+    "title": "Professional",
+    "intro": "She unites leadership, culture, and coaching with academic depth and field experience.",
+    "currentHeading": "Now",
+    "current": "Co-founder of Thorius Eğitim ve Danışmanlık — consulting, Academy, and an AI-assisted coaching & mentoring platform.",
+    "highlightsHeading": "Highlights",
+    "h1": "FLO Group — Group HR Manager; founder of Coaching & Mentoring (2017–2025)",
+    "h2": "UNDP mentor — STEM-graduate young women (2024–)",
+    "h3": "ICF Turkey — project leader; ICF Running Team founder / captain",
+    "h4": "Ph.D. (2021) · MBA · mathematics graduate path · ICF MCC & ORSCC",
+    "linksHeading": "Links",
+    "linkThorius": "Thorius",
+    "linkCoaching": "Thorius Coaching",
+    "linkAcademy": "Thorius Academy",
+    "linkLinkedin": "LinkedIn",
+    "linkKitaplik": "Thorius Kitaplık"
+  },
+  "books": {
+    "title": "Books",
+    "seriesName": "Ancient Language Myths",
+    "seriesIntro": "A novel series woven from mythology, love, and ancient language.",
+    "auroraTitle": "Aurora — A Mythology of Skyborne Love",
+    "auroraSubtitle": "Fire and Air · The Mythology of Liberating Love",
+    "auroraBlurb": "The sky caught fire once. Every star you see is the memory of an ember that burned. On one side, Odâra — flame returning from ash; on the other, Yelvân — the horizon that sets free. When the two met, the light people later called Aurora lit the heavens for the first time. But every light is followed by a shadow: the devouring pit Obrân, stolen embers, a will put to the test… A world where love grows not by possession, but by opening a horizon before the one you love. Speaking its own mythology and its own tongue, this novel asks what loving truly means: the beloved is not a destination, but a horizon that carries you to the light within — and from there, to the sky. Carrying the finesse of ancient wisdom into a modern narrative, Aurora is the first link in the seven-book Ancient Language Myths series. For those who listen to the sky.",
+    "more": "Further volumes in the series are on the way.",
+    "ctaKitaplik": "Explore on Thorius Kitaplık",
+    "auroraQuote": "If you are the one who makes the light, no one can put it out."
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Leave a message, or reach out via LinkedIn / Thorius.",
+    "name": "Full name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Send via email",
+    "note": "Phone and WhatsApp are not published on this site.",
+    "linksHeading": "Other channels"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "publications": {
+    "title": "Academic Publications",
+    "intro": "Theses and academic articles.",
+    "open": "Open",
+    "items": [
+      {
+        "title": "Consumer perception and preference reasons: Extending the technology acceptance model and comparing online marketplaces with retailer online shopping sites",
+        "meta": "Doctoral dissertation in Marketing · 1 July 2021",
+        "href": "https://enstitu.iku.edu.tr/sites/fbe/files/inline-files/LEE-DR-29.pdf"
+      },
+      {
+        "title": "A Research Regarding Organizational Silence Climate and Silence Behaviours of Employees",
+        "meta": "Master’s thesis",
+        "href": "https://scholar.google.com/citations?view_op=view_citation&hl=tr&user=PMXlM9oAAAAJ&citation_for_view=PMXlM9oAAAAJ:u5HHmVD_uO8C"
+      },
+      {
+        "title": "Crypto Money Exchanges (Kripto Para Borsaları)",
+        "meta": "Anahtar Journal — Republic of Turkey Ministry of Science, Industry and Technology · 1 August 2018",
+        "href": "https://edergi.sanayi.gov.tr/File/Journal/2018/8/8_2018.pdf"
+      },
+      {
+        "title": "A Way to Support Employee Performance: Coaching and Mentoring (Çalışanın Performansını Desteklemek İçin Bir Yol: Koçluk ve Mentorluk)",
+        "meta": "Seminar thesis",
+        "href": ""
+      },
+      {
+        "title": "The Contributions of Famous Mathematicians to the Science (Ünlü Matematikçilerin Bilime Katkıları)",
+        "meta": "MSc. thesis",
+        "href": ""
+      }
+    ]
+  }
+}

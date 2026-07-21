@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "siteName": "Dr. Elif Demir Uğur",
+    "title": "Dr. Elif Demir Uğur — Yazar · Koç · Lider",
+    "description": "Otantik liderlik, insan ve kültür, mitolojik anlatı. Ph.D., MCC, yazar."
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkında",
+    "professional": "Profesyonel",
+    "publications": "Yayınlar",
+    "books": "Kitaplar",
+    "contact": "İletişim"
+  },
+  "home": {
+    "eyebrow": "Dr. · Yazar · Koç",
+    "headline": "Otantik liderlik ve mitolojik anlatı — aynı seste.",
+    "lead": "İnsan ve kültür mimarisi ile edebiyatı bir arada taşıyan kişisel alan.",
+    "ctaProfessional": "Profesyonel yol",
+    "ctaAuthor": "Yazarlık yolu",
+    "pillarProTitle": "Profesyonel",
+    "pillarProText": "Thorius, koçluk ve mentorluk, insan & kültür, yapay zekâ destekli gelişim.",
+    "pillarAuthorTitle": "Yazar",
+    "pillarAuthorText": "Kadim Dil Mitleri serisi — Aurora ve devam eden kitaplar."
+  },
+  "about": {
+    "title": "Hakkında",
+    "intro": "Dr. Elif Demir Uğur (EDU); akademisyen, Master Certified Coach (MCC), insan ve kültür lideri ve mitolojik roman yazarıdır.",
+    "titlesHeading": "Unvanlar",
+    "titles": "Ph.D., MBA, MSc · MCC, ORSCC, NLP",
+    "bioHeading": "Yolculuk",
+    "bio": "Yirmi altı yılı aşkın deneyimde eğitim, insan kaynakları, koçluk ve mentorluğu birleştirdi. Thorius Eğitim ve Danışmanlık’ın kurucu ortağı; FLO Group’ta Coaching & Mentoring yapısını kurup yönetti; UNDP’de STEM mezunu genç kadınlara mentorluk verdi; ICF Türkiye’de proje liderliği ve ICF Running Team’in kuruculuğunu üstlendi. BMI Business School’dan CHRO eğitimi almış üst düzey bir yöneticidir. Matematik öğretmenliği yılları (MEF International, Avrupa Koleji, Kültür Koleji, MEB) akademik ve pedagojik temelini oluşturur.",
+    "langsHeading": "Diller",
+    "langs": "Türkçe (ana dil) · İngilizce (profesyonel) · Fransızca, Almanca, İtalyanca, İspanyolca",
+    "volunteerHeading": "Gönüllülük",
+    "volunteer": "ICF Running Team kurucusu ve proje lideri olarak çocuk eğitimi için bağış koşuları; TEGV ve ÖRAV öğretmenlerine gönüllü koçluk; TEMA ile doğa projeleri.",
+    "honorsHeading": "Onur ve Ödüller",
+    "honors": [
+      {
+        "title": "ICF ÖRAV Eğitime Destek, Geleceğe Yatırım",
+        "issuer": "ICF Global · Eylül 2019",
+        "description": "MEB öğretmenlerine gönüllü koçluk ve mentorluk."
+      },
+      {
+        "title": "ICF İyiliğe Koşuyor",
+        "issuer": "ICF Global · Eylül 2019",
+        "description": "Çocukların eğitimi için gönüllü bağış koşuları."
+      },
+      {
+        "title": "TEGV Gelişim Merdiveni",
+        "issuer": "ICF Global · Eylül 2019",
+        "description": "TEGV öğretmenlerine gönüllü koçluk ve mentorluk."
+      },
+      {
+        "title": "Teşekkür Belgesi",
+        "issuer": "MEF Okulları Genel Müdürlüğü · Haziran 2011",
+        "description": "Yüksek lisanslı matematik öğretmeni."
+      },
+      {
+        "title": "Teşekkür ve Başarı Belgesi",
+        "issuer": "TÜBİTAK – MEB, Bu Benim Eserim Proje Yarışması · Mayıs 2009",
+        "description": ""
+      },
+      {
+        "title": "Teşekkür Belgesi",
+        "issuer": "Bakırköy İlçe Millî Eğitim Müdürlüğü · Haziran 2008",
+        "description": "Yüksek lisanslı matematik öğretmeni."
+      },
+      {
+        "title": "Teşekkür Belgesi",
+        "issuer": "Kültür Koleji Yönetimi · Nisan 2008",
+        "description": "Yüksek lisanslı matematik öğretmeni."
+      }
+    ]
+  },
+  "professional": {
+    "title": "Profesyonel",
+    "intro": "Liderlik, kültür ve koçluğu bilimsel derinlik ve sahadaki deneyimle birleştirir.",
+    "currentHeading": "Güncel",
+    "current": "Thorius Eğitim ve Danışmanlık kurucu ortağı — danışmanlık, Academy, AI destekli koçluk ve mentorluk platformu.",
+    "highlightsHeading": "Öne çıkanlar",
+    "h1": "FLO Group — Grup İK Müdürü; Coaching & Mentoring kurucusu (2017–2025)",
+    "h2": "UNDP mentor — STEM mezunu genç kadınlar (2024–)",
+    "h3": "ICF Türkiye — proje lideri; ICF Running Team kurucu / kaptan",
+    "h4": "Doktora (2021) · MBA · Matematik yüksek lisans yolu · ICF MCC & ORSCC",
+    "linksHeading": "Bağlantılar",
+    "linkThorius": "Thorius",
+    "linkCoaching": "Thorius Coaching",
+    "linkAcademy": "Thorius Academy",
+    "linkLinkedin": "LinkedIn",
+    "linkKitaplik": "Thorius Kitaplık"
+  },
+  "books": {
+    "title": "Kitaplar",
+    "seriesName": "Kadim Dil Mitleri",
+    "seriesIntro": "Mitoloji, sevgi ve kadim dilin izinde bir roman serisi.",
+    "auroraTitle": "Aurora — Bir Gökyüzü Aşkının Mitolojisi",
+    "auroraSubtitle": "Ateş ve Hava · Özgürleştiren Sevginin Mitolojisi",
+    "auroraBlurb": "Gökyüzü bir kez tutuştu. Gördüğünüz her yıldız, bir zamanlar yanmış bir közün anısıdır. Bir yanda Odâra — küllerinden dönen alev; öbür yanda Yelvân — özgür bırakan ufuk. İkisi bir araya geldiğinde, insanların sonradan Aurora dediği ışık, göğü ilk kez aydınlattı. Ama her ışığın peşine düşen bir gölge vardır: yutan çukur Obrân, çalınan közler, sınanan irade… Sevginin, sahip olmakla değil; sevdiğinin önünde bir ufuk açmakla büyüdüğü bir dünya. Kendi mitolojisini kuran, kendi dilini konuşan bu roman, sevmenin aslında ne olduğunu sorar: Sevdiğin, varılacak yer değil; seni içindeki ışığa, oradan da göğe götüren ufuktur. Kadim bilgelik geleneğinin inceliğini modern bir anlatıya taşıyan Aurora, yedi kitaplık Kadim Dil Mitleri serisinin ilk halkasıdır. Göğü dinleyenler için.",
+    "auroraQuote": "Işığı üreten sensen, kimse söndüremez.",
+    "more": "Serinin yeni ciltleri yolda.",
+    "ctaKitaplik": "Thorius Kitaplık’ta keşfet"
+  },
+  "contact": {
+    "title": "İletişim",
+    "intro": "Mesajınızı bırakın veya LinkedIn / Thorius üzerinden ulaşın.",
+    "name": "Ad Soyad",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "submit": "E-posta ile gönder",
+    "note": "Telefon ve WhatsApp bu sitede yayınlanmamaktadır.",
+    "linksHeading": "Diğer kanallar"
+  },
+  "publications": {
+    "title": "Akademik Yayınlar",
+    "intro": "Tezler ve akademik makaleler.",
+    "open": "Aç",
+    "items": [
+      {
+        "title": "Tüketici algısı ve tercih nedenleri: Teknoloji kabul modelinin genişletilmesi ve çevrim içi pazar yerleri ile perakendeci çevrim içi alışveriş sitelerinin karşılaştırılması",
+        "meta": "Pazarlama alanı doktora tezi · Marketing (Doctoral Dissertation) · 1 Temmuz 2021",
+        "href": "https://enstitu.iku.edu.tr/sites/fbe/files/inline-files/LEE-DR-29.pdf"
+      },
+      {
+        "title": "Örgütsel Sessizlik İklimi ve Çalışan Sessizlik Davranışlarına İlişkin Bir Araştırma",
+        "meta": "Yüksek lisans tezi",
+        "href": "https://scholar.google.com/citations?view_op=view_citation&hl=tr&user=PMXlM9oAAAAJ&citation_for_view=PMXlM9oAAAAJ:u5HHmVD_uO8C"
+      },
+      {
+        "title": "Kripto Para Borsaları (Crypto Money Exchanges)",
+        "meta": "Anahtar Dergisi — T.C. Bilim, Sanayi ve Teknoloji Bakanlığı · 1 Ağustos 2018",
+        "href": "https://edergi.sanayi.gov.tr/File/Journal/2018/8/8_2018.pdf"
+      },
+      {
+        "title": "Çalışanın Performansını Desteklemek İçin Bir Yol: Koçluk ve Mentorluk (A Way to Support Employee Performance: Coaching and Mentoring)",
+        "meta": "Seminer tezi (Seminar Thesis)",
+        "href": ""
+      },
+      {
+        "title": "Ünlü Matematikçilerin Bilime Katkıları (The Contributions of Famous Mathematicians to the Science)",
+        "meta": "Yüksek lisans tezi (MSc. Thesis)",
+        "href": ""
+      }
+    ]
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır."
+  }
+}
