@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -29,6 +30,15 @@ type Props = {
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
+
+
+export const metadata: Metadata = {
+  icons: {
+    icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
+};
 
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;

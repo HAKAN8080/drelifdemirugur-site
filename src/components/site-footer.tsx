@@ -6,6 +6,10 @@ const LINKS = [
     href: "https://www.linkedin.com/in/dr-elif-demir-u%C4%9Fur-edu-b90b013b/",
     labelKey: "linkLinkedin" as const,
   },
+  {
+    href: "https://medium.com/@theevolvedwoman",
+    labelKey: "linkMedium" as const,
+  },
 ];
 
 export function SiteFooter() {

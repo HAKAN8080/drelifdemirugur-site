@@ -23,6 +23,10 @@ const EXTERNAL = [
     href: "https://www.linkedin.com/in/dr-elif-demir-u%C4%9Fur-edu-b90b013b/",
     key: "linkLinkedin" as const,
   },
+  {
+    href: "https://medium.com/@theevolvedwoman",
+    key: "linkMedium" as const,
+  },
 ];
 
 export async function generateMetadata({ params }: Props) {

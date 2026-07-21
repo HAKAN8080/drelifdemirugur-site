@@ -12,6 +12,7 @@ const EXTERNAL = [
   { href: "https://kitaplik.thorius.com.tr", label: "Thorius Kitaplık" },
   { href: "https://coaching.thorius.com.tr", label: "Thorius Coaching" },
   { href: "https://academy.thorius.com.tr", label: "Thorius Academy" },
+  { href: "https://medium.com/@theevolvedwoman", label: "Medium" },
 ];
 
 // Moderation blocklist (Turkish + English profanity/insults). Matched per
