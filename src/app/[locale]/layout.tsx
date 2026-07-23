@@ -6,7 +6,10 @@ import { Cormorant_Garamond, Source_Sans_3 } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "../globals.css";
+
+const GA_MEASUREMENT_ID = "G-RCJY5ERMQD";
 
 const display = Cormorant_Garamond({
   subsets: ["latin", "latin-ext"],
@@ -134,6 +137,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           <main className="flex-1">{children}</main>
           <SiteFooter />
         </NextIntlClientProvider>
+        <GoogleAnalytics gaId={GA_MEASUREMENT_ID} />
       </body>
     </html>
   );
