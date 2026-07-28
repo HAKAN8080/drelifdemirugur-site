@@ -120,8 +120,10 @@ export default async function HomePage({ params }: Props) {
             playsInline
             preload="metadata"
           />
-          <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/20 transition group-hover:bg-black/30">
-            <span className="medium-badge">{t("mediumBadge")}</span>
+          <div className="pointer-events-none absolute inset-0 bg-black/10 transition group-hover:bg-black/20">
+            <span className="medium-badge absolute bottom-4 left-4 md:bottom-6 md:left-6">
+              {t("mediumBadge")}
+            </span>
           </div>
         </a>
       </section>
