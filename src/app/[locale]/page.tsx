@@ -102,6 +102,29 @@ export default async function HomePage({ params }: Props) {
           <p className="mt-3 text-cloud-muted">{t("pillarAuthorText")}</p>
         </Link>
       </section>
+
+      <section className="relative overflow-hidden bg-[#0a1a3a]">
+        <a
+          href="https://medium.com/@theevolvedwoman"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={t("mediumBadgeAria")}
+          className="group relative block"
+        >
+          <video
+            className="aspect-[16/7] w-full object-cover sm:aspect-[21/8] md:aspect-[24/8]"
+            src="/medium-tanitim.mp4"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+          />
+          <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/20 transition group-hover:bg-black/30">
+            <span className="medium-badge">{t("mediumBadge")}</span>
+          </div>
+        </a>
+      </section>
     </div>
   );
 }

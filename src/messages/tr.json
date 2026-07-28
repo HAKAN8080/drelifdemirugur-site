@@ -23,7 +23,9 @@
     "pillarAuthorTitle": "Yazar",
     "pillarAuthorText": "Kadim Dil Mitleri serisi — Aurora ve devam eden kitaplar.",
     "auroraBadge": "AURORA YAYINDA",
-    "auroraBadgeAria": "Aurora — Thorius Kitaplık"
+    "auroraBadgeAria": "Aurora — Thorius Kitaplık",
+    "mediumBadge": "Medium Hesabı için tıklayın",
+    "mediumBadgeAria": "Medium hesabı — @theevolvedwoman"
   },
   "about": {
     "title": "Hakkında",
