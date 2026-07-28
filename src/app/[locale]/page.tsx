@@ -22,6 +22,29 @@ export default async function HomePage({ params }: Props) {
 
   return (
     <div>
+      <section className="relative overflow-hidden bg-[#0a1a3a]">
+        <a
+          href="https://kitaplik.thorius.com.tr/kitap/aurora"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={t("auroraBadgeAria")}
+          className="group relative block"
+        >
+          <video
+            className="aspect-[16/7] w-full object-cover sm:aspect-[21/8] md:aspect-[24/8]"
+            src="/vid.mp4"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+          />
+          <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/15 transition group-hover:bg-black/25">
+            <span className="aurora-badge">{t("auroraBadge")}</span>
+          </div>
+        </a>
+      </section>
+
       <section className="relative min-h-[85vh] overflow-hidden">
         <div className="absolute inset-0 md:left-[42%]">
           <Portrait className="h-full min-h-[50vh] w-full md:min-h-full" priority />

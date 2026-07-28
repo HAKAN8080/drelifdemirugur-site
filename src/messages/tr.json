@@ -21,7 +21,9 @@
     "pillarProTitle": "Profesyonel",
     "pillarProText": "Thorius, koçluk ve mentorluk, insan & kültür, yapay zekâ destekli gelişim.",
     "pillarAuthorTitle": "Yazar",
-    "pillarAuthorText": "Kadim Dil Mitleri serisi — Aurora ve devam eden kitaplar."
+    "pillarAuthorText": "Kadim Dil Mitleri serisi — Aurora ve devam eden kitaplar.",
+    "auroraBadge": "AURORA YAYINDA",
+    "auroraBadgeAria": "Aurora — Thorius Kitaplık"
   },
   "about": {
     "title": "Hakkında",
