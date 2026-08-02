@@ -1,11 +1,14 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import {
   isBunnyEntry,
+  isBunnyMp4Entry,
   isSpotifyEntry,
+  isVideoEntry,
   podcastEmbedHeight,
   podcasts,
   resolveBunnyEmbedUrl,
   resolveSpotifyEmbedUrl,
+  type BunnyMp4PodcastEntry,
   type BunnyPodcastEntry,
   type PodcastEntry,
   type SpotifyPodcastEntry,
@@ -105,6 +108,62 @@ function BunnyEmbed({
   );
 }
 
+function BunnyMp4Player({
+  entry,
+  locale,
+  label,
+}: {
+  entry: BunnyMp4PodcastEntry;
+  locale: string;
+  label: string;
+}) {
+  const { title, description } = copyFor(entry, locale);
+
+  return (
+    <li className="border-l-2 border-purple-500/40 pl-5">
+      <p className="mb-2 text-xs font-medium tracking-[0.16em] text-purple-600 uppercase">
+        {label}
+      </p>
+      <h2 className="font-[family-name:var(--font-display)] text-2xl text-cloud-ink md:text-3xl">
+        {title}
+      </h2>
+      {description ? (
+        <p className="mt-2 text-[0.95rem] leading-relaxed text-cloud-muted whitespace-pre-wrap">
+          {description}
+        </p>
+      ) : null}
+      <div className="mt-5 overflow-hidden rounded-xl bg-black/5 shadow-[0_12px_32px_-20px_rgba(26,47,69,0.35)]">
+        <div className="relative aspect-video w-full bg-black">
+          <video
+            controls
+            playsInline
+            preload="metadata"
+            className="absolute inset-0 h-full w-full"
+            src={entry.videoSrc}
+          >
+            <a href={entry.videoSrc}>{title}</a>
+          </video>
+        </div>
+      </div>
+    </li>
+  );
+}
+
+function VideoEntry({
+  entry,
+  locale,
+  label,
+}: {
+  entry: BunnyPodcastEntry | BunnyMp4PodcastEntry;
+  locale: string;
+  label: string;
+}) {
+  if (isBunnyMp4Entry(entry)) {
+    return <BunnyMp4Player entry={entry} locale={locale} label={label} />;
+  }
+  return <BunnyEmbed entry={entry} locale={locale} label={label} />;
+}
+
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "podcasts" });
@@ -121,19 +180,20 @@ export default async function PodcastsPage({ params }: Props) {
   const t = await getTranslations("podcasts");
 
   const spotifyEntries = podcasts.filter(isSpotifyEntry);
-  const bunnyEntries = podcasts
-    .filter(isBunnyEntry)
-    .filter((entry) => resolveBunnyEmbedUrl(entry) !== null);
-  const hasEpisodes = spotifyEntries.length > 0 || bunnyEntries.length > 0;
+  const videoEntries = podcasts.filter(isVideoEntry).filter((entry) => {
+    if (isBunnyMp4Entry(entry)) return Boolean(entry.videoSrc?.trim());
+    if (isBunnyEntry(entry)) return resolveBunnyEmbedUrl(entry) !== null;
+    return false;
+  });
+  const hasEpisodes = spotifyEntries.length > 0 || videoEntries.length > 0;
   const showSectionHeadings =
-    spotifyEntries.length > 0 && bunnyEntries.length > 0;
+    spotifyEntries.length > 0 && videoEntries.length > 0;
 
   return (
     <div className="mx-auto max-w-3xl px-5 py-14 md:px-8 md:py-20">
       <h1 className="font-[family-name:var(--font-display)] text-4xl text-cloud-ink md:text-5xl">
         {t("title")}
       </h1>
-      <p className="mt-4 text-lg text-cloud-muted">{t("intro")}</p>
 
       {hasEpisodes ? (
         <div className="mt-12 space-y-16">
@@ -160,7 +220,7 @@ export default async function PodcastsPage({ params }: Props) {
             </section>
           ) : null}
 
-          {bunnyEntries.length > 0 ? (
+          {videoEntries.length > 0 ? (
             <section aria-labelledby={showSectionHeadings ? "podcasts-video" : undefined}>
               {showSectionHeadings ? (
                 <h2
@@ -171,8 +231,8 @@ export default async function PodcastsPage({ params }: Props) {
                 </h2>
               ) : null}
               <ul className="space-y-14">
-                {bunnyEntries.map((entry) => (
-                  <BunnyEmbed
+                {videoEntries.map((entry) => (
+                  <VideoEntry
                     key={entry.id}
                     entry={entry}
                     locale={locale}

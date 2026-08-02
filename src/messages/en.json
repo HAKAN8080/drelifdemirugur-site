@@ -109,14 +109,13 @@
   },
   "podcasts": {
     "title": "Podcasts",
-    "description": "Listen to podcasts by Dr. Elif Demir Uğur — Spotify and video embeds.",
-    "intro": "Conversations on Spotify and Bunny Stream videos.",
+    "description": "Podcasts by Dr. Elif Demir Uğur.",
     "sectionAudio": "Audio",
     "sectionVideo": "Video",
     "labelSpotify": "Spotify",
     "labelVideo": "Video",
     "comingSoon": "Coming soon",
-    "emptyNote": "Spotify and video players will appear here. Check back shortly."
+    "emptyNote": "Coming soon."
   },
   "contact": {
     "title": "Contact",

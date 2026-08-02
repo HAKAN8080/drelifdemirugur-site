@@ -55,7 +55,23 @@ export type BunnyPodcastEntry = PodcastBase & {
   bunnyEmbedUrl?: string;
 };
 
-export type PodcastEntry = SpotifyPodcastEntry | BunnyPodcastEntry;
+/**
+ * Direct MP4 hosted on Bunny CDN (b-cdn.net pull zone) — HTML5 <video>, not Stream iframe.
+ *
+ * How to add:
+ * 1. Upload the file to a Bunny Storage / pull zone
+ * 2. Paste the public HTTPS MP4 URL into `videoSrc`
+ */
+export type BunnyMp4PodcastEntry = PodcastBase & {
+  media: "bunny-mp4";
+  /** Public HTTPS URL to an MP4 on *.b-cdn.net (or other CDN) */
+  videoSrc: string;
+};
+
+export type PodcastEntry =
+  | SpotifyPodcastEntry
+  | BunnyPodcastEntry
+  | BunnyMp4PodcastEntry;
 
 export function isSpotifyEntry(
   entry: PodcastEntry,
@@ -65,6 +81,18 @@ export function isSpotifyEntry(
 
 export function isBunnyEntry(entry: PodcastEntry): entry is BunnyPodcastEntry {
   return entry.media === "bunny";
+}
+
+export function isBunnyMp4Entry(
+  entry: PodcastEntry,
+): entry is BunnyMp4PodcastEntry {
+  return entry.media === "bunny-mp4";
+}
+
+export function isVideoEntry(
+  entry: PodcastEntry,
+): entry is BunnyPodcastEntry | BunnyMp4PodcastEntry {
+  return entry.media === "bunny" || entry.media === "bunny-mp4";
 }
 
 export function resolveSpotifyEmbedUrl(entry: SpotifyPodcastEntry): string {
@@ -131,6 +159,20 @@ export const podcasts: PodcastEntry[] = [
     description: {
       tr: "Ortak Paydada Buluşalım · Aurora’yı konuşuyoruz: kitap bir görüntüden nasıl çıktı, kötü karakter nasıl anlaşılır hale geldi, gökyüzü ve yeryüzü neden birbirinin aynası.",
       en: "Ortak Paydada Buluşalım · On Aurora: how the book began from a single image, how the antagonist becomes understandable, and why sky and earth mirror each other.",
+    },
+  },
+  {
+    id: "sifa-dogru-agizdan",
+    media: "bunny-mp4",
+    videoSrc:
+      "https://avrupa-thorius.b-cdn.net/Podcasts/WhatsApp%20Video%202026-08-02%20at%2014.52.39.mp4",
+    title: {
+      tr: "Şifa Doğru Ağızdan Çıkınca...",
+      en: "When Healing Comes From the Right Mouth...",
+    },
+    description: {
+      tr: "Şifa, doğru ağızdan çıkınca şifa olur. İyileşsinler diye karşılıksız açtığım o musluktan beslenip, sonra da o emeği hiçe sayanlar için adaleti sahibine bıraktım. Artık uyarıyı aldım: Işığımı başkalarına kaptırmayı bırakıyor, kendi sesimi duyuruyorum. İlahi akıştaki sözlerimi artık sadece hak edenlerle, alma-verme dengesini koruyarak paylaşacağım. Kendi adımla, kendi yolumda yürüme vakti. Yaklaşık 5 yıldır ilmek ilmek yazdığım kitap serimi de bu vesileyle sizlere sunmuş oldum. Yaşanan her deneyim, almak isteyene büyük bir tecrübe. Şifa niyetine, Ya Şafi. 💜🌞🧿🪬♐️🦁 Dr. Elif Demir Uğur, 2026",
+      en: "Healing becomes true healing when it comes from the right mouth. For those who fed from the faucet I opened freely so they might heal, then disregarded that labor — I left justice to its Owner. I have taken the warning now: I am done letting others take my light; I am making my own voice heard. From now on I will share my words in the divine flow only with those who deserve them, protecting the balance of giving and receiving. It is time to walk my own path under my own name. Through this, I have also presented to you the book series I have been weaving, stitch by stitch, for about five years. Every experience lived is a great lesson for those who wish to receive it. With the intention of healing, Ya Shafi. 💜🌞🧿🪬♐️🦁 Dr. Elif Demir Uğur, 2026",
     },
   },
   // Bunny Stream example — uncomment and replace IDs (or bunnyEmbedUrl) from

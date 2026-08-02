@@ -109,14 +109,13 @@
   },
   "podcasts": {
     "title": "Podcastler",
-    "description": "Dr. Elif Demir Uğur podcastleri — Spotify ve video gömülü oynatıcılar.",
-    "intro": "Spotify’da sohbetler ve Bunny Stream videoları.",
+    "description": "Dr. Elif Demir Uğur podcastleri.",
     "sectionAudio": "Ses",
     "sectionVideo": "Video",
     "labelSpotify": "Spotify",
     "labelVideo": "Video",
     "comingSoon": "Yakında",
-    "emptyNote": "Spotify ve video oynatıcıları burada yer alacak. Kısa süre içinde güncellenecek."
+    "emptyNote": "Yakında burada yer alacak."
   },
   "contact": {
     "title": "İletişim",
