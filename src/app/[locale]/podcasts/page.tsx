@@ -138,9 +138,10 @@ function BunnyMp4Player({
             controls
             playsInline
             preload="metadata"
-            referrerPolicy="no-referrer"
             className="absolute inset-0 h-full w-full"
             src={entry.videoSrc}
+            // referrerPolicy is valid on HTMLVideoElement; React DOM typings lag behind.
+            {...{ referrerPolicy: "no-referrer" as const }}
           >
             <a href={entry.videoSrc}>{title}</a>
           </video>

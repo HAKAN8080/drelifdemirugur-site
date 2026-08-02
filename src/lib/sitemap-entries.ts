@@ -1,3 +1,5 @@
+import { getAllPosts } from "@/content/blog/posts";
+
 const BASE = "https://drelifdemirugur.com";
 const LOCALES = ["tr", "en"] as const;
 const PATHS = [
@@ -7,13 +9,15 @@ const PATHS = [
   "/publications",
   "/books",
   "/podcasts",
+  "/blog",
   "/contact",
 ] as const;
 
 export function buildSitemapEntries() {
   const lastModified = new Date();
+  const blogPosts = getAllPosts();
 
-  return LOCALES.flatMap((locale) =>
+  const staticEntries = LOCALES.flatMap((locale) =>
     PATHS.map((path) => {
       const languages = Object.fromEntries(
         LOCALES.map((l) => [l, `${BASE}/${l}${path}`]),
@@ -31,4 +35,26 @@ export function buildSitemapEntries() {
       };
     }),
   );
+
+  const postEntries = LOCALES.flatMap((locale) =>
+    blogPosts.map((post) => {
+      const path = `/blog/${post.slug}`;
+      const languages = Object.fromEntries(
+        LOCALES.map((l) => [l, `${BASE}/${l}${path}`]),
+      );
+
+      return {
+        url: `${BASE}/${locale}${path}`,
+        lastModified: new Date(`${post.date}T12:00:00.000Z`),
+        alternates: {
+          languages: {
+            ...languages,
+            "x-default": `${BASE}/tr${path}`,
+          },
+        },
+      };
+    }),
+  );
+
+  return [...staticEntries, ...postEntries];
 }

@@ -11,6 +11,7 @@
     "publications": "Yayınlar",
     "books": "Kitaplar",
     "podcasts": "Podcastler",
+    "blog": "Blog",
     "contact": "İletişim"
   },
   "home": {
@@ -116,6 +117,13 @@
     "labelVideo": "Video",
     "comingSoon": "Yakında",
     "emptyNote": "Yakında burada yer alacak."
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Yazı, ses ve yolculuk üzerine notlar — Dr. Elif Demir Uğur.",
+    "readMore": "Devamını oku",
+    "back": "Blog’a dön",
+    "empty": "Yakında yazılar burada yer alacak."
   },
   "contact": {
     "title": "İletişim",
