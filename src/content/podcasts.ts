@@ -61,6 +61,11 @@ export type BunnyPodcastEntry = PodcastBase & {
  * How to add:
  * 1. Upload the file to a Bunny Storage / pull zone
  * 2. Paste the public HTTPS MP4 URL into `videoSrc`
+ *
+ * Hotlink note: If the pull zone has “Block unauthorized referrers” on and
+ * drelifdemirugur.com is not in Allowed Referrers, browsers get 403. The
+ * podcasts player sets referrerPolicy="no-referrer" as a workaround; preferred
+ * fix is Bunny → Pull Zone → Security → add Allowed Referrers (or disable block).
  */
 export type BunnyMp4PodcastEntry = PodcastBase & {
   media: "bunny-mp4";

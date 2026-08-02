@@ -138,6 +138,7 @@ function BunnyMp4Player({
             controls
             playsInline
             preload="metadata"
+            referrerPolicy="no-referrer"
             className="absolute inset-0 h-full w-full"
             src={entry.videoSrc}
           >
