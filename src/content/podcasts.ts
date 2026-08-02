@@ -46,19 +46,21 @@ export function podcastEmbedHeight(entry: PodcastEntry): number {
  * Leave empty for the intentional “coming soon” empty state.
  */
 export const podcasts: PodcastEntry[] = [
-  // Example (uncomment and replace IDs when ready):
-  // {
-  //   id: "example-show",
-  //   kind: "show",
-  //   spotifyId: "PASTE_SHOW_ID_HERE",
-  //   expanded: true,
-  //   title: {
-  //     tr: "Örnek Podcast",
-  //     en: "Example Podcast",
-  //   },
-  //   description: {
-  //     tr: "Kısa açıklama.",
-  //     en: "Short description.",
-  //   },
-  // },
+  {
+    id: "aurora-ortak-paydada",
+    kind: "episode",
+    // Resolved from https://spotifycreators-web.app.link/e/4b75lI1uf5b
+    // → https://open.spotify.com/episode/4QWwfHbJ6DjgQwJljMw6lm
+    // Show: https://open.spotify.com/show/033ZwLUceGeTNLOz1CAk9t
+    spotifyId: "4QWwfHbJ6DjgQwJljMw6lm",
+    expanded: true,
+    title: {
+      tr: "Aurora — Bir Gökyüzü Aşkının Mitolojisi",
+      en: "Aurora — A Mythology of Skyborne Love",
+    },
+    description: {
+      tr: "Ortak Paydada Buluşalım · Aurora’yı konuşuyoruz: kitap bir görüntüden nasıl çıktı, kötü karakter nasıl anlaşılır hale geldi, gökyüzü ve yeryüzü neden birbirinin aynası.",
+      en: "Ortak Paydada Buluşalım · On Aurora: how the book began from a single image, how the antagonist becomes understandable, and why sky and earth mirror each other.",
+    },
+  },
 ];
