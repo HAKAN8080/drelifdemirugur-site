@@ -6,6 +6,7 @@ const PATHS = [
   "/professional",
   "/publications",
   "/books",
+  "/podcasts",
   "/contact",
 ] as const;
 

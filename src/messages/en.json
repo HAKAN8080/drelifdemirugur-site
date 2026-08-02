@@ -9,6 +9,7 @@
     "about": "About",
     "professional": "Professional",
     "books": "Books",
+    "podcasts": "Podcasts",
     "contact": "Contact",
     "publications": "Publications"
   },
@@ -105,6 +106,13 @@
     "more": "Further volumes in the series are on the way.",
     "ctaKitaplik": "Explore on Thorius Kitaplık",
     "auroraQuote": "If you are the one who makes the light, no one can put it out."
+  },
+  "podcasts": {
+    "title": "Podcasts",
+    "description": "Listen to podcasts by Dr. Elif Demir Uğur — Spotify embeds.",
+    "intro": "Conversations and stories on Spotify.",
+    "comingSoon": "Coming soon",
+    "emptyNote": "Spotify show and episode players will appear here. Check back shortly."
   },
   "contact": {
     "title": "Contact",

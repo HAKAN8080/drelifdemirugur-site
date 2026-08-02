@@ -10,6 +10,7 @@
     "professional": "Profesyonel",
     "publications": "Yayınlar",
     "books": "Kitaplar",
+    "podcasts": "Podcastler",
     "contact": "İletişim"
   },
   "home": {
@@ -105,6 +106,13 @@
     "auroraQuote": "Işığı üreten sensen, kimse söndüremez.",
     "more": "Serinin yeni ciltleri yolda.",
     "ctaKitaplik": "Thorius Kitaplık’ta keşfet"
+  },
+  "podcasts": {
+    "title": "Podcastler",
+    "description": "Dr. Elif Demir Uğur podcastleri — Spotify gömülü oynatıcılar.",
+    "intro": "Spotify’da sohbetler ve anlatılar.",
+    "comingSoon": "Yakında",
+    "emptyNote": "Spotify dizi ve bölüm oynatıcıları burada yer alacak. Kısa süre içinde güncellenecek."
   },
   "contact": {
     "title": "İletişim",
