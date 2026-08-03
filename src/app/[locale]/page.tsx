@@ -127,6 +127,10 @@ export default async function HomePage({ params }: Props) {
           </div>
         </a>
       </section>
+
+      <p className="mx-auto max-w-6xl px-5 py-6 text-center text-xs text-cloud-muted/70 md:px-8">
+        {t("contentCredit")}
+      </p>
     </div>
   );
 }
