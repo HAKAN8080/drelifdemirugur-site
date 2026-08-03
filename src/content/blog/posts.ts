@@ -13,6 +13,11 @@ export type BlogPost = {
   tags: string[];
   /** Optional cover image path under /public */
   coverImage?: string;
+  /**
+   * Optional HTML5 video URL (Bunny CDN MP4 preferred).
+   * Rendered above the markdown body on the post page.
+   */
+  videoSrc?: string;
   /** Markdown body (paragraphs, ## headings, lists, links, bold/italic) */
   body: LocalizedText;
 };
@@ -23,6 +28,130 @@ export type BlogPost = {
  * 2. Rebuild / redeploy. Listing, sitemap, and `/blog/[slug]` pick it up automatically.
  */
 export const posts: BlogPost[] = [
+  {
+    slug: "aurora-kendi-gokyuzunu-yaratan-ates",
+    date: "2026-08-03",
+    tags: [
+      "Aurora",
+      "Kadim Dil Mitleri",
+      "Ancient Language Myths",
+      "Elif Nile",
+      "Odâra",
+      "mitoloji",
+      "mythology",
+      "roman",
+      "novel",
+      "Dr. Elif Demir Uğur",
+    ],
+    coverImage: "/aurora-cover.png",
+    videoSrc: "https://avrupa-thorius.b-cdn.net/Blog/AURORA_video.mp4",
+    title: {
+      tr: "Aurora: Kendi Gökyüzünü Yaratan Ateş",
+      en: "Aurora: The Fire That Creates Its Own Sky",
+    },
+    description: {
+      tr: "Aurora — Bir Gökyüzü Aşkının Mitolojisi: eve dönüş değil; kendi küllerinden gökyüzünü yaratan ilahi ateşin ve ruhun ikiz bilgeliğinin hikâyesi.",
+      en: "Aurora — A Mythology of Skyborne Love: not merely a homecoming, but the story of the divine fire that builds a sky from its own ash, and of the soul’s twin wisdom.",
+    },
+    body: {
+      tr: `*Aurora — Bir Gökyüzü Aşkının Mitolojisi*, sadece bir eve dönüşün değil, kendi küllerinden kendi gökyüzünü yaratan o ilahi ateşin ve o gökyüzünü ilmek ilmek dokuyan kozmik bir gökyüzü aşkının hikâyesidir.
+
+Bu aşk, sıradan bir beşeri sevda değil; ruhun kendi içindeki eril ve dişil bilgeliğin, o harlı ikiz ateşin göksel birleşmesidir.
+
+Karakterim Odâra, kendi içine yaptığı o derin yolculukta; ancak kendi içindeki büyük aşkın ateşiyle yandığında, kendi gökyüzünü en yukarılara serebileceğini keşfetti. Çünkü gökyüzü, yalnızca dışarıda başımızı kaldırdığımızda gördüğümüz sonsuzluk değil; içindeki dişil derinlik ile eril gücün, aşkla tek bir parlamada mühürlendiği yerdir.
+
+Homeros’un denizleri bitti; pusulalar yönünü kaybetti. Şimdi, kendi içsel evreninde o devasa gökyüzü aşkıyla yanan ve kendi gökyüzünü bizzat kendi ateşiyle var eden insanın kadim destanı başlıyor.
+
+[Thorius Kitaplık’ta Aurora’yı keşfedin](https://kitaplik.thorius.com.tr/kitap/aurora).`,
+      en: `*Aurora — A Mythology of Skyborne Love* is not only a homecoming. It is the story of the divine fire that creates its own sky from its own ash — and of the cosmic skyborne love that weaves that sky, stitch by stitch.
+
+This love is not ordinary human romance. It is the celestial union of the soul’s own masculine and feminine wisdom — that blazing twin fire.
+
+My character Odâra, on the deep journey inward, discovered that only when she burned with the great love-fire within could she spread her own sky to the highest heavens. For the sky is not merely the infinity we see when we lift our heads outdoors; it is the place where the feminine depth and the masculine power within are sealed, in love, into a single flare.
+
+Homer’s seas are finished; the compasses have lost their bearing. Now begins the ancient epic of the human who burns with that vast skyborne love in their inner universe — and who brings their own sky into being with their own fire.
+
+[Explore Aurora on Thorius Kitaplık](https://kitaplik.thorius.com.tr/kitap/aurora).`,
+    },
+  },
+  {
+    slug: "zamani-asan-yolculuk-homeros-mentor",
+    date: "2026-08-03",
+    tags: [
+      "Aurora",
+      "Homeros",
+      "Homer",
+      "Odysseia",
+      "Odyssey",
+      "Mentor",
+      "nostos",
+      "Kadim Dil Mitleri",
+      "Ancient Language Myths",
+      "Elif Nile",
+      "Dr. Elif Demir Uğur",
+    ],
+    coverImage: "/aurora-cover.png",
+    title: {
+      tr: "Zamanı Aşan Yolculuk: Homeros, Mentor ve Eve Dönüş",
+      en: "A Journey Beyond Time: Homer, Mentor, and the Return Home",
+    },
+    description: {
+      tr: "Homeros’tan ruhun ikiz ateşine: Odysseia’daki nostos, Mentor’un bilgeliği ve Aurora’nın doğuşu — içerideki gökyüzüne giden yol.",
+      en: "From Homer to the twin fire of the soul: nostos in the Odyssey, the wisdom of Mentor, and the birth of Aurora — the path to the sky within.",
+    },
+    body: {
+      tr: `## İçerideki Gökyüzü: Homeros’tan Ruhun İkiz Ateşine
+
+“Ses, hatırlamanın ilk kapısıdır.”
+
+*Aurora — Bir Gökyüzü Aşkının Mitolojisi*
+
+Yıllarca kürsülerde, seanslarda ve eğitimlerde hep aynı kadim destanı anlattım: Homeros’un Odysseia’sını… Truva’nın küllerinden doğan o dev dalgaları, evini arayan Odysseus’u ve ona karanlıkta rehber olan, tanrıça Athena’nın bilgeliğiyle can bulan Mentor’u fısıldadım ruhlara. Danışanlarıma, fırtınalı denizlerde yön bulmayı ve her insanın ömründe bir kez olsun o “eve dönüş” yolculuğuna çıkması gerektiğini öğrettim.
+
+Fakat hikâyeler, en çok da anlatanı dönüştürmek için vardır.
+
+Edebiyat tarihinin en eski ve en güçlü çınarı olan Homeros, Odysseia destanında aslında sadece bir kahramanın maceralarını anlatmaz; insan ruhunun en büyük arayışını, yani “eve dönüşü” (nostos) ilmek ilmek işler. Truva’nın düşüşünden sonra yurduna dönmek için dalgalarla, canavarlarla ve tanrıların gazabıyla savaşan Odysseus’un hikâyesi, aslında her insanın kendi içsel olgunlaşma ve aslına rücu etme yolculuğudur.
+
+Ancak bu çetin yolda, sadece eve dönmeye çalışan bir kral değil, arkada bırakılanların da büyüme sancısı vardır. İşte tam bu noktada Homeros, insanlığa zamansız bir figür armağan eder: Mentor.
+
+Odysseus, bilinmeze doğru yelken açarken sarayını, geleceğini ve biricik oğlu Telemakhos’u sadık dostu Mentor’a emanet etmiştir. Mentor, yalnızlığın ve belirsizliğin ortasında kalan bir gencin hem koruyucusu, hem de bilgeliğin yeryüzündeki sesi olur. Öyle ki, akıl ve savaş tanrıçası Athena bile dünyaya inip bu genç adama doğru yolu göstermek istediğinde, ulu bir kralın veya görkemli bir varlığın değil, sadece Mentor’un suretine bürünmeyi seçer. Çünkü bilgelik, sessiz ve derinden giden adımlarda saklıdır.
+
+Odysseia, bir yanıyla Odysseus’un fiziki olarak eve, İthake’ye dönüşüyse; diğer yanıyla Telemakhos’un, Mentor’un rehberliğinde çocukluktan yetişkinliğe, yani kendi öz benliğine dönüşüdür. Ev, sadece taştan bir saray veya coğrafi bir koordinat değildir; ev, insanın fırtınalardan sonra sığındığı o nihai iç huzurdur.
+
+Başkalarına liman olmayı anlatırken; insanın en büyük pusulasının dışarıdaki denizlerde değil, kendi özündeki saklı kor ateşte olduğu mitolojisi canlandı düşümde…
+
+Homeros’un kahramanları dünyevi bir yurdu, İthake’yi ararken; benim ruhum kendi derinliklerine doğru radikal bir yolculuğa çıktı. Gördüm ki Mentor, bizi dışarıdaki bir eve götüren değil; içimizdeki o sönmeyen ateşi harlayarak bize kendi gökyüzümüzü inşa ettiren güçtür.
+
+İşte bu yüzden, yıllarca anlattığım o antik rehberliğin sınırlarını aşarak kendi kadim dilimi, kendi mitolojimi doğurdum.
+
+[Thorius Kitaplık’ta Aurora’yı keşfedin](https://kitaplik.thorius.com.tr/kitap/aurora).`,
+      en: `## The Sky Within: From Homer to the Twin Fire of the Soul
+
+“Voice is the first door of remembering.”
+
+*Aurora — A Mythology of Skyborne Love*
+
+For years, from pulpits, in sessions and trainings, I told the same ancient epic: Homer’s Odyssey… I whispered to souls the great waves born from the ashes of Troy, Odysseus seeking his home, and Mentor — brought to life by the wisdom of the goddess Athena — guiding him in the dark. I taught those I counselled how to find direction on stormy seas, and that every human being must, at least once in a lifetime, set out on that journey of “returning home.”
+
+But stories exist above all to transform the one who tells them.
+
+Homer, the oldest and strongest plane tree of literary history, does not merely recount a hero’s adventures in the Odyssey; he weaves, stitch by stitch, the greatest quest of the human soul: the return home (*nostos*). The story of Odysseus — fighting waves, monsters, and the wrath of the gods to reach his homeland after Troy’s fall — is, in truth, every person’s journey of inner ripening and return to their origin.
+
+Yet on this hard road, it is not only a king trying to get home who suffers; those left behind also endure the pain of growing. Precisely here Homer gifts humanity a timeless figure: Mentor.
+
+When Odysseus set sail into the unknown, he entrusted his palace, his future, and his only son Telemachus to his loyal friend Mentor. Mentor becomes both the guardian of a young man left in loneliness and uncertainty, and the voice of wisdom on earth. So much so that even Athena, goddess of mind and war, when she wishes to descend and show this young man the right path, chooses not the form of a lofty king or a splendid being — only the likeness of Mentor. Because wisdom is hidden in steps that move quietly and from the deep.
+
+If the Odyssey is, on one side, Odysseus’s physical return home to Ithaca, on the other it is Telemachus’s return — under Mentor’s guidance — from childhood to adulthood, to his own true self. Home is not merely a stone palace or a geographic coordinate; home is the final inner peace a person takes shelter in after the storms.
+
+While teaching others how to be a harbour, a mythology came alive in my dream: that a human’s greatest compass is not in the outer seas, but in the hidden ember-fire of their own essence…
+
+While Homer’s heroes sought a worldly homeland, Ithaca, my soul set out on a radical journey toward its own depths. I saw that Mentor is not the power that takes us to a house outside; it is the power that fans the unquenchable fire within us and makes us build our own sky.
+
+That is why I crossed the limits of that ancient guidance I had told for years — and gave birth to my own ancient tongue, my own mythology.
+
+[Explore Aurora on Thorius Kitaplık](https://kitaplik.thorius.com.tr/kitap/aurora).`,
+    },
+  },
   {
     slug: "aurora-gogu-dinleyenler-icin",
     date: "2026-08-03",

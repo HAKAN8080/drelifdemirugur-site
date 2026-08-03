@@ -131,7 +131,24 @@ export default async function BlogPostPage({ params }: Props) {
         ) : null}
       </header>
 
-      {post.coverImage ? (
+      {post.videoSrc ? (
+        <div className="mt-10 overflow-hidden rounded-xl bg-black/5 shadow-[0_12px_32px_-20px_rgba(26,47,69,0.35)]">
+          <div className="relative aspect-video w-full bg-black">
+            <video
+              controls
+              playsInline
+              preload="metadata"
+              poster={post.coverImage}
+              className="absolute inset-0 h-full w-full"
+              src={post.videoSrc}
+              // referrerPolicy is valid on HTMLVideoElement; React DOM typings lag behind.
+              {...{ referrerPolicy: "no-referrer" as const }}
+            >
+              <a href={post.videoSrc}>{title}</a>
+            </video>
+          </div>
+        </div>
+      ) : post.coverImage ? (
         <div className="mt-10 overflow-hidden shadow-[0_18px_40px_-18px_rgba(26,47,69,0.45)]">
           <Image
             src={post.coverImage}
