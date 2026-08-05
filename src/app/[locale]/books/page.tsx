@@ -3,7 +3,10 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 type Props = { params: Promise<{ locale: string }> };
 
-const AURORA_URL = "https://kitaplik.thorius.com.tr/kitap/aurora";
+const AURORA_KITAPLIK_URL = "https://kitaplik.thorius.com.tr/kitap/aurora";
+const AURORA_AMAZON_URL = "https://www.amazon.com/dp/B0HC2FWZ74";
+const AURORA_KOBO_TR_URL = "https://www.kobo.com/tr/tr/ebook/aurora-183";
+const AURORA_KOBO_EN_URL = "https://www.kobo.com/tr/tr/ebook/aurora-182";
 
 export async function generateMetadata({ params }: Props) {
   const { locale } = await params;
@@ -44,7 +47,7 @@ export default async function BooksPage({ params }: Props) {
       <article className="mt-14 border-t border-cloud-200 pt-10">
         <div className="flex flex-col gap-8 sm:flex-row sm:items-start">
           <a
-            href={AURORA_URL}
+            href={AURORA_AMAZON_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="group relative mx-auto w-44 shrink-0 overflow-hidden shadow-[0_18px_40px_-18px_rgba(26,47,69,0.45)] transition hover:opacity-95 sm:mx-0 sm:w-52"
@@ -69,14 +72,50 @@ export default async function BooksPage({ params }: Props) {
             <p className="mt-5 font-[family-name:var(--font-display)] text-lg italic text-cloud-ink">
               {`“${t("auroraQuote")}”`}
             </p>
-            <a
-              href={AURORA_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary mt-6"
-            >
-              {t("ctaKitaplik")}
-            </a>
+
+            <p className="mt-6 text-[0.95rem] leading-relaxed text-cloud-ink">
+              {t("auroraAccess")}
+            </p>
+            <p className="mt-3 text-sm leading-relaxed text-cloud-muted">
+              {t("auroraDigitalJourney")}
+            </p>
+
+            <div className="mt-6 flex flex-wrap gap-3">
+              <a
+                href={AURORA_AMAZON_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+              >
+                {t("ctaAmazon")}
+              </a>
+              <a
+                href={AURORA_KOBO_TR_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary"
+              >
+                {t("ctaKoboTr")}
+              </a>
+              <a
+                href={AURORA_KOBO_EN_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary"
+              >
+                {t("ctaKoboEn")}
+              </a>
+              <a
+                href={AURORA_KITAPLIK_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary"
+              >
+                {t("ctaKitaplik")}
+              </a>
+            </div>
+
+            <p className="mt-4 text-sm text-cloud-muted/80">{t("comingSoonStores")}</p>
           </div>
         </div>
       </article>

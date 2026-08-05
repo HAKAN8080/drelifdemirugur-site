@@ -25,7 +25,7 @@
     "pillarAuthorTitle": "Yazar",
     "pillarAuthorText": "Kadim Dil Mitleri serisi — Aurora ve devam eden kitaplar.",
     "auroraBadge": "AURORA YAYINDA",
-    "auroraBadgeAria": "Aurora — Thorius Kitaplık",
+    "auroraBadgeAria": "Aurora — Kitaplar",
     "mediumBadge": "Medium Hesabı için tıklayın",
     "mediumBadgeAria": "Medium hesabı — @theevolvedwoman",
     "contentCredit": "Bu sayfa içerikleri @Thorius tarafından üretilmektedir."
@@ -106,8 +106,14 @@
     "auroraSubtitle": "Ateş ve Hava · Özgürleştiren Sevginin Mitolojisi",
     "auroraBlurb": "Gökyüzü bir kez tutuştu. Gördüğünüz her yıldız, bir zamanlar yanmış bir közün anısıdır. Bir yanda Odâra — küllerinden dönen alev; öbür yanda Yelvân — özgür bırakan ufuk. İkisi bir araya geldiğinde, insanların sonradan Aurora dediği ışık, göğü ilk kez aydınlattı. Ama her ışığın peşine düşen bir gölge vardır: yutan çukur Obrân, çalınan közler, sınanan irade… Sevginin, sahip olmakla değil; sevdiğinin önünde bir ufuk açmakla büyüdüğü bir dünya. Kendi mitolojisini kuran, kendi dilini konuşan bu roman, sevmenin aslında ne olduğunu sorar: Sevdiğin, varılacak yer değil; seni içindeki ışığa, oradan da göğe götüren ufuktur. Kadim bilgelik geleneğinin inceliğini modern bir anlatıya taşıyan Aurora, yedi kitaplık Kadim Dil Mitleri serisinin ilk halkasıdır. Göğü dinleyenler için.",
     "auroraQuote": "Işığı üreten sensen, kimse söndüremez.",
+    "auroraAccess": "Bir dilin unutulmasıyla başlayan, bir uyanışla devam eden bu yolculuk artık dünyanın her yerinden erişilebilir durumda.",
+    "auroraDigitalJourney": "Amazon Kindle’dan sonra Kobo — Aurora’nın dijital yolculuğu devam ediyor.",
     "more": "Serinin yeni ciltleri yolda.",
-    "ctaKitaplik": "Thorius Kitaplık’ta keşfet"
+    "ctaAmazon": "Amazon Kindle",
+    "ctaKoboTr": "Kobo · Türkçe",
+    "ctaKoboEn": "Kobo · English",
+    "ctaKitaplik": "Thorius Kitaplık’ta keşfet",
+    "comingSoonStores": "Google Play ve DR yakında."
   },
   "podcasts": {
     "title": "Podcastler",

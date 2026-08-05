@@ -23,10 +23,8 @@ export default async function HomePage({ params }: Props) {
   return (
     <div>
       <section className="relative overflow-hidden bg-[#0a1a3a]">
-        <a
-          href="https://kitaplik.thorius.com.tr/kitap/aurora"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          href="/books"
           aria-label={t("auroraBadgeAria")}
           className="group relative block"
         >
@@ -42,7 +40,7 @@ export default async function HomePage({ params }: Props) {
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/15 transition group-hover:bg-black/25">
             <span className="aurora-badge">{t("auroraBadge")}</span>
           </div>
-        </a>
+        </Link>
       </section>
 
       <section className="relative min-h-[85vh] overflow-hidden">

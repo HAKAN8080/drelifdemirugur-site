@@ -25,7 +25,7 @@
     "pillarAuthorTitle": "Author",
     "pillarAuthorText": "Ancient Language Myths series — Aurora and forthcoming volumes.",
     "auroraBadge": "AURORA OUT NOW",
-    "auroraBadgeAria": "Aurora — Thorius Kitaplık",
+    "auroraBadgeAria": "Aurora — Books",
     "mediumBadge": "Click for Medium account",
     "mediumBadgeAria": "Medium profile — @theevolvedwoman",
     "contentCredit": "Content on this site is produced by @Thorius."
@@ -105,9 +105,15 @@
     "auroraTitle": "Aurora — A Mythology of Skyborne Love",
     "auroraSubtitle": "Fire and Air · The Mythology of Liberating Love",
     "auroraBlurb": "The sky caught fire once. Every star you see is the memory of an ember that burned. On one side, Odâra — flame returning from ash; on the other, Yelvân — the horizon that sets free. When the two met, the light people later called Aurora lit the heavens for the first time. But every light is followed by a shadow: the devouring pit Obrân, stolen embers, a will put to the test… A world where love grows not by possession, but by opening a horizon before the one you love. Speaking its own mythology and its own tongue, this novel asks what loving truly means: the beloved is not a destination, but a horizon that carries you to the light within — and from there, to the sky. Carrying the finesse of ancient wisdom into a modern narrative, Aurora is the first link in the seven-book Ancient Language Myths series. For those who listen to the sky.",
+    "auroraQuote": "If you are the one who makes the light, no one can put it out.",
+    "auroraAccess": "A journey that begins with a language forgotten and continues with an awakening — now reachable from anywhere in the world.",
+    "auroraDigitalJourney": "After Amazon Kindle comes Kobo — Aurora’s digital journey continues.",
     "more": "Further volumes in the series are on the way.",
+    "ctaAmazon": "Amazon Kindle",
+    "ctaKoboTr": "Kobo · Turkish",
+    "ctaKoboEn": "Kobo · English",
     "ctaKitaplik": "Explore on Thorius Kitaplık",
-    "auroraQuote": "If you are the one who makes the light, no one can put it out."
+    "comingSoonStores": "Google Play and DR coming soon."
   },
   "podcasts": {
     "title": "Podcasts",

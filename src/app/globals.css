@@ -82,6 +82,32 @@ a {
   transform: translateY(0);
 }
 
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  border: 1.5px solid var(--purple-500);
+  background: rgba(255, 255, 255, 0.55);
+  padding: 0.75rem 1.75rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--purple-600);
+  transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+}
+
+.btn-secondary:hover {
+  background: var(--purple-100);
+  border-color: var(--purple-600);
+  transform: translateY(-1px);
+}
+
+.btn-secondary:active {
+  transform: translateY(0);
+}
+
 .prose-site h2 {
   font-family: var(--font-display), serif;
   font-weight: 600;
