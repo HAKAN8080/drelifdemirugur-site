@@ -100,40 +100,91 @@
     "linkMedium": "Medium"
   },
   "coaching": {
-    "title": "Coaching",
-    "description": "Executive coaching and student coaching with Dr. Elif Demir Uğur — ICF MCC, authentic leadership, and pedagogical depth.",
+    "title": "Executive Coaching",
+    "description": "I bring together more than twenty-six years of experience in education, human resources, and coaching with the ICF Master Certified Coach (MCC) and ORSCC credentials. I accompany senior leaders as they clarify their own voice, find direction, and take sustainable steps.",
     "keywords": [
       "executive coaching",
-      "student coaching",
-      "yönetici koçluğu",
       "ICF MCC",
+      "ORSCC",
       "Elif Demir Uğur",
       "coaching",
-      "mentoring",
-      "authentic leadership"
+      "authentic leadership",
+      "systemic team coaching",
+      "yönetici koçluğu"
     ],
-    "eyebrow": "ICF MCC · Teacher · Coach · Mentor",
-    "intro": "I bring more than twenty-six years across education, human resources, and coaching together with ICF Master Certified Coach (MCC) and ORSCC credentials. My work is to help leaders and students clarify their own voice, find direction, and take steps that last.",
-    "executiveTitle": "Executive coaching",
-    "executiveBody": "One-to-one coaching for senior leaders, people & culture executives, and decision-makers. As a practitioner who founded and led Coaching & Mentoring at FLO Group, I open space beyond title — so a leader can hear their own voice and build a more honest bond with their teams.",
-    "executiveOutcomesHeading": "Areas we often work on",
-    "executiveOutcomes": [
+    "eyebrow": "ICF MCC · ORSCC · 26+ Years of Experience",
+    "intro": "I bring together more than twenty-six years of experience in education, human resources, and coaching with the ICF Master Certified Coach (MCC) and ORSCC credentials. I accompany senior leaders as they clarify their own voice, find direction, and take sustainable steps.",
+    "credentials": [
+      "ICF Master Certified Coach (MCC)",
+      "ORSCC — Systemic Team Coaching",
+      "CHRO Program · Built Corporate Coaching Structures"
+    ],
+    "whoHeading": "Who I work with",
+    "whoBody": "I work one-on-one with senior executives, people and culture leaders, and decision-makers. As a practitioner who has built and led a corporate Coaching & Mentoring structure from the ground up, I focus on authentic leadership, culture architecture, and the human side of performance. The conversation creates space for leaders to hear their own inner voice beyond the title and build a more honest connection with their teams.",
+    "whoItems": [
       "Authentic leadership and clarity in decision-making",
       "People & culture architecture, team climate, and communication",
-      "Leadership transitions, expanded roles, and sustainable performance",
-      "Building a coaching culture and mentoring systems"
+      "Executive transitions, role expansion, and sustainable performance",
+      "Leading a coaching culture and building mentoring systems"
     ],
-    "studentTitle": "Student coaching",
-    "studentBody": "Years as a mathematics teacher and mentoring STEM-graduate young women with UNDP shape how I work with students. With high school and university students and early-career candidates, we focus on learning discipline, self-trust, direction, and the balance between academic and personal life. The aim is not simply higher grades — it is for the student to recognize their potential and own their path.",
-    "studentOutcomesHeading": "Areas we often work on",
-    "studentOutcomes": [
+    "howHeading": "How we work",
+    "howSteps": [
+      {
+        "title": "Discovery conversation",
+        "body": "We start with a short introductory conversation to clarify your expectations, your context, and whether we are a good fit."
+      },
+      {
+        "title": "Goals and framework",
+        "body": "We define coaching goals, confidentiality, and working rhythm together. For company-sponsored engagements, we set up a three-way contract."
+      },
+      {
+        "title": "Session rhythm",
+        "body": "We typically meet online every two weeks for 60-minute sessions. A typical engagement runs 6–12 sessions, and we review progress along the way."
+      }
+    ],
+    "contactLine": "To arrange a coaching conversation, simply leave a short note via the <link>contact page</link>.",
+    "studentRedirectTitle": "Looking for student coaching?",
+    "studentRedirectBody": "I run a separate coaching program for the whole educational journey, from primary school to doctorate.",
+    "studentRedirectLink": "Student coaching →"
+  },
+  "studentCoaching": {
+    "title": "Student Coaching",
+    "description": "The bond I have built with young people through my years as a mathematics teacher and as a UNDP STEM mentor forms the backbone of my student coaching. With students at every stage from primary school to doctorate, as well as early-career candidates.",
+    "keywords": [
+      "student coaching",
+      "academic coaching",
+      "STEM mentoring",
+      "Elif Demir Uğur",
+      "doctoral coaching",
+      "university coaching",
+      "öğrenci koçluğu"
+    ],
+    "eyebrow": "Teacher · Coach · Mentor",
+    "intro": "The bond I have built with young people through my years as a mathematics teacher and as a UNDP STEM mentor forms the backbone of my student coaching. With students at every stage from primary school to doctorate, as well as early-career candidates, we work on learning discipline, self-confidence, choosing a direction, and academic-personal balance. The goal is not to raise grades; it is for students to recognize their own potential and own their path.",
+    "areasHeading": "What we work on together",
+    "areas": [
       "Learning discipline, focus, and study rhythm",
-      "Self-trust, motivation, and exam or performance anxiety",
-      "Direction-setting, university choices, and early-career steps",
-      "Mentoring support on STEM and academic journeys"
+      "Self-confidence, motivation, and exam / performance anxiety",
+      "Choosing a direction, university, graduate school, and early-career steps",
+      "Mentoring support on the STEM and academic journey (including thesis and doctoral processes)"
     ],
-    "ctaNote": "A short note is enough to start a coaching conversation.",
-    "ctaEmail": "elif.ugur@thorius.com.tr"
+    "stagesHeading": "Focus by stage",
+    "stages": [
+      {
+        "title": "Primary and high school",
+        "body": "We work on study habits, focus, exam anxiety, and self-confidence, in collaboration with parents."
+      },
+      {
+        "title": "University",
+        "body": "Choosing a major and direction, academic motivation, balancing campus life with personal well-being, and early-career preparation."
+      },
+      {
+        "title": "Graduate and doctoral",
+        "body": "The thesis process, academic productivity, the advisor relationship, and career paths inside and outside academia."
+      }
+    ],
+    "contactLine": "To arrange a coaching conversation, simply leave a short note via the <link>contact page</link>.",
+    "backLink": "← Executive coaching"
   },
   "books": {
     "title": "Books",

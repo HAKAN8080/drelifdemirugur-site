@@ -100,40 +100,91 @@
     "linkMedium": "Medium"
   },
   "coaching": {
-    "title": "Koçluk",
-    "description": "Dr. Elif Demir Uğur ile yönetici koçluğu ve öğrenci koçluğu — ICF MCC, otantik liderlik ve pedagojik derinlik.",
+    "title": "Yönetici Koçluğu",
+    "description": "Yirmi altı yılı aşkın eğitim, insan kaynakları ve koçluk deneyimini ICF Master Certified Coach (MCC) ve ORSCC yetkinliğiyle bir araya getiririm. Üst düzey yöneticilerin kendi seslerini netleştirmesine, yön bulmasına ve sürdürülebilir adımlar atmasına eşlik ederim.",
     "keywords": [
       "yönetici koçluğu",
-      "öğrenci koçluğu",
       "executive coaching",
       "ICF MCC",
+      "ORSCC",
       "Elif Demir Uğur",
       "koçluk",
-      "mentorluk",
-      "otantik liderlik"
+      "otantik liderlik",
+      "sistemik takım koçluğu"
     ],
-    "eyebrow": "ICF MCC · Öğretmen · Koç · Mentor",
-    "intro": "Yirmi altı yılı aşkın eğitim, insan kaynakları ve koçluk deneyimini; ICF Master Certified Coach (MCC) ve ORSCC yetkinliğiyle bir araya getiririm. Amacım, liderlerin ve öğrencilerin kendi seslerini netleştirmesine, yön bulmasına ve sürdürülebilir adımlar atmasına eşlik etmektir.",
-    "executiveTitle": "Yönetici koçluğu",
-    "executiveBody": "Üst düzey yöneticiler, insan ve kültür liderleri ve karar vericiler için bire bir koçluk. FLO Group’ta Coaching & Mentoring yapısını kurup yönetmiş bir pratisyen olarak çalışırım. Sohbet; unvanın ötesinde, liderin kendi iç sesini duymasına ve ekipleriyle daha dürüst bir bağ kurmasına alan açar.",
-    "executiveOutcomesHeading": "Birlikte çalıştığımız alanlar",
-    "executiveOutcomes": [
+    "eyebrow": "ICF MCC · ORSCC · 26+ Yıl Deneyim",
+    "intro": "Yirmi altı yılı aşkın eğitim, insan kaynakları ve koçluk deneyimini ICF Master Certified Coach (MCC) ve ORSCC yetkinliğiyle bir araya getiririm. Üst düzey yöneticilerin kendi seslerini netleştirmesine, yön bulmasına ve sürdürülebilir adımlar atmasına eşlik ederim.",
+    "credentials": [
+      "ICF Master Certified Coach (MCC)",
+      "ORSCC — Sistemik Takım Koçluğu",
+      "CHRO Programı · Kurumsal Koçluk Yapısı Kurucusu"
+    ],
+    "whoHeading": "Kimlerle çalışıyorum",
+    "whoBody": "Üst düzey yöneticiler, insan ve kültür liderleri ve karar vericilerle bire bir çalışırım. Kurumsal hayatta Coaching & Mentoring yapısını sıfırdan kurup yönetmiş bir pratisyen olarak; otantik liderlik, kültür mimarisi ve performansın insan tarafına odaklanırım. Sohbet, unvanın ötesinde liderin kendi iç sesini duymasına ve ekipleriyle daha dürüst bir bağ kurmasına alan açar.",
+    "whoItems": [
       "Otantik liderlik ve karar alma netliği",
       "İnsan & kültür mimarisi, ekip iklimi ve iletişim",
       "Yönetici geçişleri, rol genişlemesi ve sürdürülebilir performans",
       "Koçluk kültürüne liderlik etmek ve mentorluk sistemleri kurmak"
     ],
-    "studentTitle": "Öğrenci koçluğu",
-    "studentBody": "Matematik öğretmenliği yılları ve UNDP STEM mentorluğu üzerinden gençlerle kurduğum bağ, öğrenci koçluğunun omurgasıdır. Lise ve üniversite öğrencileri ile erken kariyer adayları için; öğrenme disiplini, özgüven, yön seçimi ve akademik-kişisel denge üzerine çalışırız. Amaç not yükseltmek değil; öğrencinin kendi potansiyelini tanıması ve yolunu sahiplenmesidir.",
-    "studentOutcomesHeading": "Birlikte çalıştığımız alanlar",
-    "studentOutcomes": [
+    "howHeading": "Nasıl çalışıyoruz",
+    "howSteps": [
+      {
+        "title": "Tanışma görüşmesi",
+        "body": "Kısa bir ön görüşmeyle başlarız. Beklentinizi, bağlamınızı ve birlikte çalışıp çalışamayacağımızı netleştiririz."
+      },
+      {
+        "title": "Hedef ve çerçeve",
+        "body": "Koçluk hedeflerini, gizlilik çerçevesini ve çalışma ritmini birlikte tanımlarız. Kurumsal sponsorlu süreçlerde üçlü sözleşme yapısı kurarız."
+      },
+      {
+        "title": "Seans ritmi",
+        "body": "Genellikle iki haftada bir, 60 dakikalık online seanslarla ilerleriz. Tipik bir süreç 6–12 seans sürer; yol boyunca ilerlemeyi birlikte değerlendiririz."
+      }
+    ],
+    "contactLine": "Koçluk görüşmesi için <link>iletişim sayfasından</link> kısa bir not bırakmanız yeterli.",
+    "studentRedirectTitle": "Öğrenci koçluğu mu arıyorsunuz?",
+    "studentRedirectBody": "İlköğretimden doktoraya, tüm eğitim yolculuğu için ayrı bir koçluk programım var.",
+    "studentRedirectLink": "Öğrenci koçluğu →"
+  },
+  "studentCoaching": {
+    "title": "Öğrenci Koçluğu",
+    "description": "Matematik öğretmenliği yılları ve UNDP STEM mentorluğu üzerinden gençlerle kurduğum bağ, öğrenci koçluğunun omurgasıdır. İlköğretimden doktoraya kadar tüm eğitim kademelerindeki öğrenciler ve erken kariyer adayları ile çalışırız.",
+    "keywords": [
+      "öğrenci koçluğu",
+      "student coaching",
+      "akademik koçluk",
+      "STEM mentorluk",
+      "Elif Demir Uğur",
+      "doktora koçluğu",
+      "üniversite koçluğu"
+    ],
+    "eyebrow": "Öğretmen · Koç · Mentor",
+    "intro": "Matematik öğretmenliği yılları ve UNDP STEM mentorluğu üzerinden gençlerle kurduğum bağ, öğrenci koçluğunun omurgasıdır. İlköğretimden doktoraya kadar tüm eğitim kademelerindeki öğrenciler ve erken kariyer adayları ile; öğrenme disiplini, özgüven, yön seçimi ve akademik-kişisel denge üzerine çalışırız. Amaç not yükseltmek değil; öğrencinin kendi potansiyelini tanıması ve yolunu sahiplenmesidir.",
+    "areasHeading": "Birlikte çalıştığımız alanlar",
+    "areas": [
       "Öğrenme disiplini, odak ve çalışma ritmi",
       "Özgüven, motivasyon ve sınav / performans kaygısı",
-      "Yön seçimi, üniversite ve erken kariyer adımları",
-      "STEM ve akademik yolculukta mentorluk desteği"
+      "Yön seçimi, üniversite, lisansüstü ve erken kariyer adımları",
+      "STEM ve akademik yolculukta mentorluk desteği (tez ve doktora süreci dahil)"
     ],
-    "ctaNote": "Koçluk görüşmesi için kısa bir not bırakmanız yeterli.",
-    "ctaEmail": "elif.ugur@thorius.com.tr"
+    "stagesHeading": "Kademelere göre odak",
+    "stages": [
+      {
+        "title": "İlköğretim ve lise",
+        "body": "Çalışma alışkanlıkları, odak, sınav kaygısı ve özgüven üzerine; veliyle iş birliği içinde çalışırız."
+      },
+      {
+        "title": "Üniversite",
+        "body": "Bölüm ve yön seçimi, akademik motivasyon, kampüs hayatı ile kişisel denge ve erken kariyer hazırlığı."
+      },
+      {
+        "title": "Lisansüstü ve doktora",
+        "body": "Tez süreci, akademik üretkenlik, danışman ilişkisi ve akademi ile akademi dışı kariyer yolları."
+      }
+    ],
+    "contactLine": "Koçluk görüşmesi için <link>iletişim sayfasından</link> kısa bir not bırakmanız yeterli.",
+    "backLink": "← Yönetici koçluğu"
   },
   "books": {
     "title": "Kitaplar",

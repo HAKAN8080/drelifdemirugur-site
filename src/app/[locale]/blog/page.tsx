@@ -86,7 +86,10 @@ export default async function BlogIndexPage({ params }: Props) {
                 </time>
                 <h2 className="mt-2 font-[family-name:var(--font-display)] text-2xl text-cloud-ink md:text-3xl">
                   <Link
-                    href={`/blog/${post.slug}`}
+                    href={{
+                      pathname: "/blog/[slug]",
+                      params: { slug: post.slug },
+                    }}
                     className="transition hover:text-purple-600"
                   >
                     {title}
@@ -96,7 +99,10 @@ export default async function BlogIndexPage({ params }: Props) {
                   {description}
                 </p>
                 <Link
-                  href={`/blog/${post.slug}`}
+                  href={{
+                    pathname: "/blog/[slug]",
+                    params: { slug: post.slug },
+                  }}
                   className="mt-4 inline-block text-sm font-semibold text-purple-600 transition hover:text-purple-500"
                 >
                   {t("readMore")}
