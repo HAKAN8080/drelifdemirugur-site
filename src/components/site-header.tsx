@@ -11,6 +11,7 @@ export function SiteHeader() {
     { href: "/about", label: t("about") },
     { href: "/professional", label: t("professional") },
     { href: "/coaching", label: t("coaching") },
+    { href: "/coaching/students", label: t("studentCoaching") },
     { href: "/publications", label: t("publications") },
     { href: "/books", label: t("books") },
     { href: "/podcasts", label: t("podcasts") },
