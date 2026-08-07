@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { Link } from "@/i18n/navigation";
 
 type Props = { params: Promise<{ locale: string }> };
+
+const COACHING_EMAIL = "elif.ugur@thorius.com.tr";
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
@@ -31,6 +32,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+function CoachingCta({ note, email }: { note: string; email: string }) {
+  return (
+    <p className="mt-8">
+      <a
+        href={`mailto:${email}`}
+        className="text-purple-600 underline-offset-4 hover:underline"
+      >
+        {note}
+      </a>
+      <a
+        href={`mailto:${email}`}
+        className="mt-1 block text-sm text-cloud-muted/80 underline-offset-4 hover:text-purple-600 hover:underline"
+      >
+        {email}
+      </a>
+    </p>
+  );
+}
+
 export default async function CoachingPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
@@ -38,6 +58,8 @@ export default async function CoachingPage({ params }: Props) {
 
   const executiveOutcomes = t.raw("executiveOutcomes") as string[];
   const studentOutcomes = t.raw("studentOutcomes") as string[];
+  const ctaNote = t("ctaNote");
+  const ctaEmail = t("ctaEmail") || COACHING_EMAIL;
 
   return (
     <div className="mx-auto max-w-3xl px-5 py-14 md:px-8 md:py-20">
@@ -66,17 +88,7 @@ export default async function CoachingPage({ params }: Props) {
             </li>
           ))}
         </ul>
-        <p className="mt-8">
-          <Link
-            href="/contact"
-            className="text-purple-600 underline-offset-4 hover:underline"
-          >
-            {t("cta")}
-          </Link>
-          <span className="mt-1 block text-sm text-cloud-muted/80">
-            {t("ctaNote")}
-          </span>
-        </p>
+        <CoachingCta note={ctaNote} email={ctaEmail} />
       </section>
 
       <section className="mt-14 border-t border-cloud-200 pt-12">
@@ -96,17 +108,7 @@ export default async function CoachingPage({ params }: Props) {
             </li>
           ))}
         </ul>
-        <p className="mt-8">
-          <Link
-            href="/contact"
-            className="text-purple-600 underline-offset-4 hover:underline"
-          >
-            {t("cta")}
-          </Link>
-          <span className="mt-1 block text-sm text-cloud-muted/80">
-            {t("ctaNote")}
-          </span>
-        </p>
+        <CoachingCta note={ctaNote} email={ctaEmail} />
       </section>
     </div>
   );
