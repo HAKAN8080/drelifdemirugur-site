@@ -45,6 +45,7 @@ export default async function CoachingPage({ params }: Props) {
 
   const credentials = t.raw("credentials") as string[];
   const whoItems = t.raw("whoItems") as string[];
+  const aiItems = t.raw("aiItems") as string[];
   const howSteps = t.raw("howSteps") as HowStep[];
 
   return (
@@ -77,6 +78,22 @@ export default async function CoachingPage({ params }: Props) {
         </p>
         <ul className="mt-6 space-y-3 text-cloud-muted">
           {whoItems.map((item) => (
+            <li key={item} className="border-l-2 border-purple-500/40 pl-4">
+              {item}
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section className="mt-14 border-t border-cloud-200 pt-12">
+        <h2 className="font-[family-name:var(--font-display)] text-2xl text-cloud-ink md:text-3xl">
+          {t("aiHeading")}
+        </h2>
+        <p className="mt-4 text-[0.95rem] leading-relaxed text-cloud-muted">
+          {t("aiBody")}
+        </p>
+        <ul className="mt-6 space-y-3 text-cloud-muted">
+          {aiItems.map((item) => (
             <li key={item} className="border-l-2 border-purple-500/40 pl-4">
               {item}
             </li>

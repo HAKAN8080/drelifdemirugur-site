@@ -111,7 +111,9 @@
       "coaching",
       "authentic leadership",
       "systemic team coaching",
-      "yönetici koçluğu"
+      "AI coaching",
+      "yönetici koçluğu",
+      "yapay zeka koçluğu"
     ],
     "eyebrow": "ICF MCC · ORSCC · 26+ Years of Experience",
     "intro": "I bring together more than twenty-six years of experience in education, human resources, and coaching with the ICF Master Certified Coach (MCC) and ORSCC credentials. I accompany senior leaders as they clarify their own voice, find direction, and take sustainable steps.",
@@ -127,6 +129,14 @@
       "People & culture architecture, team climate, and communication",
       "Executive transitions, role expansion, and sustainable performance",
       "Leading a coaching culture and building mentoring systems"
+    ],
+    "aiHeading": "AI Coaching",
+    "aiBody": "I accompany leaders and teams as they adopt AI thoughtfully into their work and culture. The focus is not the technology itself, but the human side of transformation — ethical, practical use, and integration that never replaces human judgment.",
+    "aiItems": [
+      "Integrating AI into leadership and learning",
+      "Safe, responsible, sustainable use in team culture",
+      "Decision-making and communication rhythms that keep human judgment central",
+      "Ethical boundaries, transparency, and a clear everyday framework"
     ],
     "howHeading": "How we work",
     "howSteps": [

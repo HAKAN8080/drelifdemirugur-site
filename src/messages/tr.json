@@ -111,7 +111,9 @@
       "Elif Demir Uğur",
       "koçluk",
       "otantik liderlik",
-      "sistemik takım koçluğu"
+      "sistemik takım koçluğu",
+      "yapay zeka koçluğu",
+      "AI coaching"
     ],
     "eyebrow": "ICF MCC · ORSCC · 26+ Yıl Deneyim",
     "intro": "Yirmi altı yılı aşkın eğitim, insan kaynakları ve koçluk deneyimini ICF Master Certified Coach (MCC) ve ORSCC yetkinliğiyle bir araya getiririm. Üst düzey yöneticilerin kendi seslerini netleştirmesine, yön bulmasına ve sürdürülebilir adımlar atmasına eşlik ederim.",
@@ -127,6 +129,14 @@
       "İnsan & kültür mimarisi, ekip iklimi ve iletişim",
       "Yönetici geçişleri, rol genişlemesi ve sürdürülebilir performans",
       "Koçluk kültürüne liderlik etmek ve mentorluk sistemleri kurmak"
+    ],
+    "aiHeading": "Yapay zeka koçluğu",
+    "aiBody": "Liderlere ve ekiplere yapay zekâyı işe ve kültüre bilinçli biçimde dahil etmelerinde eşlik ederim. Odak, teknolojinin kendisi değil; dönüşümün insan tarafı, etik ve pratik kullanım ile yargının yerini almayan bir entegrasyondur.",
+    "aiItems": [
+      "Yapay zekâyı liderlik ve öğrenme süreçlerine entegre etmek",
+      "Ekip kültüründe güvenli, sorumlu ve sürdürülebilir kullanım",
+      "İnsan muhakemesini koruyarak karar alma ve iletişim ritmi",
+      "Etik sınırlar, şeffaflık ve günlük pratikte net çerçeve"
     ],
     "howHeading": "Nasıl çalışıyoruz",
     "howSteps": [
