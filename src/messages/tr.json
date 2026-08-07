@@ -172,16 +172,20 @@
     "stagesHeading": "Kademelere göre odak",
     "stages": [
       {
-        "title": "İlköğretim ve lise",
+        "title": "İlköğretim ve lise (Matematik ve İngilizce destek)",
         "body": "Çalışma alışkanlıkları, odak, sınav kaygısı ve özgüven üzerine; veliyle iş birliği içinde çalışırız."
       },
       {
-        "title": "Üniversite",
+        "title": "Üniversite (Matematik, İstatistik)",
         "body": "Bölüm ve yön seçimi, akademik motivasyon, kampüs hayatı ile kişisel denge ve erken kariyer hazırlığı."
       },
       {
-        "title": "Lisansüstü ve doktora",
+        "title": "Lisansüstü ve doktora (Matematik, İşletme, Pazarlama, IK, İstatistik, Eğitim Bilimleri)",
         "body": "Tez süreci, akademik üretkenlik, danışman ilişkisi ve akademi ile akademi dışı kariyer yolları."
+      },
+      {
+        "title": "Tez Hazırlama Destek (Özellikle İstatistiksel Analizler ve Anketler)",
+        "body": "Tez sürecinde istatistiksel analizler, anket tasarımı ve veri yorumlama üzerine çalışırız."
       }
     ],
     "contactLine": "Koçluk görüşmesi için <link>iletişim sayfasından</link> kısa bir not bırakmanız yeterli.",

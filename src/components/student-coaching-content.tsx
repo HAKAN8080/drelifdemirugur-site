@@ -42,7 +42,7 @@ export async function StudentCoachingContent() {
         <h2 className="font-[family-name:var(--font-display)] text-2xl text-cloud-ink md:text-3xl">
           {t("stagesHeading")}
         </h2>
-        <div className="mt-8 grid gap-6 sm:grid-cols-3">
+        <div className="mt-8 grid gap-6 sm:grid-cols-2">
           {stages.map((stage) => (
             <div
               key={stage.title}

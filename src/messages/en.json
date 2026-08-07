@@ -172,16 +172,20 @@
     "stagesHeading": "Focus by stage",
     "stages": [
       {
-        "title": "Primary and high school",
+        "title": "Primary and high school (Mathematics and English support)",
         "body": "We work on study habits, focus, exam anxiety, and self-confidence, in collaboration with parents."
       },
       {
-        "title": "University",
+        "title": "University (Mathematics, Statistics)",
         "body": "Choosing a major and direction, academic motivation, balancing campus life with personal well-being, and early-career preparation."
       },
       {
-        "title": "Graduate and doctoral",
+        "title": "Graduate and doctoral (Mathematics, Business, Marketing, HR, Statistics, Educational Sciences)",
         "body": "The thesis process, academic productivity, the advisor relationship, and career paths inside and outside academia."
+      },
+      {
+        "title": "Thesis preparation support (especially statistical analyses and surveys)",
+        "body": "We work on statistical analyses, survey design, and data interpretation throughout the thesis process."
       }
     ],
     "contactLine": "To arrange a coaching conversation, simply leave a short note via the <link>contact page</link>.",
