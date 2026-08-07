@@ -8,6 +8,7 @@
     "home": "Home",
     "about": "About",
     "professional": "Professional",
+    "coaching": "Coaching",
     "books": "Books",
     "podcasts": "Podcasts",
     "blog": "Blog",
@@ -97,6 +98,42 @@
     "linkLinkedin": "LinkedIn",
     "linkKitaplik": "Thorius Kitaplık",
     "linkMedium": "Medium"
+  },
+  "coaching": {
+    "title": "Coaching",
+    "description": "Executive coaching and student coaching with Dr. Elif Demir Uğur — ICF MCC, authentic leadership, and pedagogical depth.",
+    "keywords": [
+      "executive coaching",
+      "student coaching",
+      "yönetici koçluğu",
+      "ICF MCC",
+      "Elif Demir Uğur",
+      "coaching",
+      "mentoring",
+      "authentic leadership"
+    ],
+    "eyebrow": "ICF MCC · Teacher · Coach · Mentor",
+    "intro": "I bring more than twenty-six years across education, human resources, and coaching together with ICF Master Certified Coach (MCC) and ORSCC credentials. My work is to help leaders and students clarify their own voice, find direction, and take steps that last.",
+    "executiveTitle": "Executive coaching",
+    "executiveBody": "One-to-one coaching for senior leaders, people & culture executives, and decision-makers. Having founded and led Coaching & Mentoring at FLO Group and completed CHRO training, I focus on authentic leadership, culture architecture, and the human side of performance. The conversation opens space beyond title — so a leader can hear their own voice and build a more honest bond with their teams.",
+    "executiveOutcomesHeading": "Areas we often work on",
+    "executiveOutcomes": [
+      "Authentic leadership and clarity in decision-making",
+      "People & culture architecture, team climate, and communication",
+      "Leadership transitions, expanded roles, and sustainable performance",
+      "Building a coaching culture and mentoring systems"
+    ],
+    "studentTitle": "Student coaching",
+    "studentBody": "Years as a mathematics teacher and mentoring STEM-graduate young women with UNDP shape how I work with students. With high school and university students and early-career candidates, we focus on learning discipline, self-trust, direction, and the balance between academic and personal life. The aim is not simply higher grades — it is for the student to recognize their potential and own their path.",
+    "studentOutcomesHeading": "Areas we often work on",
+    "studentOutcomes": [
+      "Learning discipline, focus, and study rhythm",
+      "Self-trust, motivation, and exam or performance anxiety",
+      "Direction-setting, university choices, and early-career steps",
+      "Mentoring support on STEM and academic journeys"
+    ],
+    "cta": "Get in touch",
+    "ctaNote": "A short note is enough to start a coaching conversation."
   },
   "books": {
     "title": "Books",

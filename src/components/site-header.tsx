@@ -10,6 +10,7 @@ export function SiteHeader() {
     { href: "/", label: t("home") },
     { href: "/about", label: t("about") },
     { href: "/professional", label: t("professional") },
+    { href: "/coaching", label: t("coaching") },
     { href: "/publications", label: t("publications") },
     { href: "/books", label: t("books") },
     { href: "/podcasts", label: t("podcasts") },

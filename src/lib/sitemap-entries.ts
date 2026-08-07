@@ -6,6 +6,7 @@ const PATHS = [
   "",
   "/about",
   "/professional",
+  "/coaching",
   "/publications",
   "/books",
   "/podcasts",

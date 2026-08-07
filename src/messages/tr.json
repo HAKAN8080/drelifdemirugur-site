@@ -8,6 +8,7 @@
     "home": "Ana Sayfa",
     "about": "Hakkında",
     "professional": "Profesyonel",
+    "coaching": "Koçluk",
     "publications": "Yayınlar",
     "books": "Kitaplar",
     "podcasts": "Podcastler",
@@ -97,6 +98,42 @@
     "linkLinkedin": "LinkedIn",
     "linkKitaplik": "Thorius Kitaplık",
     "linkMedium": "Medium"
+  },
+  "coaching": {
+    "title": "Koçluk",
+    "description": "Dr. Elif Demir Uğur ile yönetici koçluğu ve öğrenci koçluğu — ICF MCC, otantik liderlik ve pedagojik derinlik.",
+    "keywords": [
+      "yönetici koçluğu",
+      "öğrenci koçluğu",
+      "executive coaching",
+      "ICF MCC",
+      "Elif Demir Uğur",
+      "koçluk",
+      "mentorluk",
+      "otantik liderlik"
+    ],
+    "eyebrow": "ICF MCC · Öğretmen · Koç · Mentor",
+    "intro": "Yirmi altı yılı aşkın eğitim, insan kaynakları ve koçluk deneyimini; ICF Master Certified Coach (MCC) ve ORSCC yetkinliğiyle bir araya getiririm. Amacım, liderlerin ve öğrencilerin kendi seslerini netleştirmesine, yön bulmasına ve sürdürülebilir adımlar atmasına eşlik etmektir.",
+    "executiveTitle": "Yönetici koçluğu",
+    "executiveBody": "Üst düzey yöneticiler, insan ve kültür liderleri ve karar vericiler için bire bir koçluk. FLO Group’ta Coaching & Mentoring yapısını kurup yönetmiş, CHRO eğitimini tamamlamış bir pratisyen olarak otantik liderlik, kültür mimarisi ve performansın insan tarafına odaklanırım. Sohbet; unvanın ötesinde, liderin kendi iç sesini duymasına ve ekipleriyle daha dürüst bir bağ kurmasına alan açar.",
+    "executiveOutcomesHeading": "Birlikte çalıştığımız alanlar",
+    "executiveOutcomes": [
+      "Otantik liderlik ve karar alma netliği",
+      "İnsan & kültür mimarisi, ekip iklimi ve iletişim",
+      "Yönetici geçişleri, rol genişlemesi ve sürdürülebilir performans",
+      "Koçluk kültürüne liderlik etmek ve mentorluk sistemleri kurmak"
+    ],
+    "studentTitle": "Öğrenci koçluğu",
+    "studentBody": "Matematik öğretmenliği yılları ve UNDP STEM mentorluğu üzerinden gençlerle kurduğum bağ, öğrenci koçluğunun omurgasıdır. Lise ve üniversite öğrencileri ile erken kariyer adayları için; öğrenme disiplini, özgüven, yön seçimi ve akademik-kişisel denge üzerine çalışırız. Amaç not yükseltmek değil; öğrencinin kendi potansiyelini tanıması ve yolunu sahiplenmesidir.",
+    "studentOutcomesHeading": "Birlikte çalıştığımız alanlar",
+    "studentOutcomes": [
+      "Öğrenme disiplini, odak ve çalışma ritmi",
+      "Özgüven, motivasyon ve sınav / performans kaygısı",
+      "Yön seçimi, üniversite ve erken kariyer adımları",
+      "STEM ve akademik yolculukta mentorluk desteği"
+    ],
+    "cta": "İletişime geçin",
+    "ctaNote": "Koçluk görüşmesi için kısa bir not bırakmanız yeterli."
   },
   "books": {
     "title": "Kitaplar",
