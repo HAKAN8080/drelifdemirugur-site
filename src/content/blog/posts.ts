@@ -29,6 +29,127 @@ export type BlogPost = {
  */
 export const posts: BlogPost[] = [
   {
+    slug: "ruhun-zaman-yolculugu-kuzey-ay-dugumu-aslan-outlander",
+    date: "2026-08-08",
+    tags: [
+      "karmik astroloji",
+      "karmic astrology",
+      "Kuzey Ay Düğümü Aslan",
+      "North Node Leo",
+      "Güney Ay Düğümü Kova",
+      "South Node Aquarius",
+      "Outlander",
+      "kariyer dönüşümü",
+      "career transformation",
+      "koçluk",
+      "coaching",
+      "danışmanlık",
+      "liderlik",
+      "leadership",
+      "Dr. Elif Demir Uğur",
+    ],
+    title: {
+      tr: "Ruhun Zaman Yolculuğu: Kuzey Ay Düğümü Aslan ve \"Outlander\" Sendromu",
+      en: "The Soul's Time Travel: North Node in Leo and the \"Outlander\" Syndrome",
+    },
+    description: {
+      tr: "Müfredatların güvenli duvarlarından, insan ruhunun liderliğine uzanan bir dönüşüm hikayesi — Kuzey Ay Düğümü Aslan ve Outlander hissi.",
+      en: "A transformation story from the safe walls of curricula to the leadership of the human soul — North Node in Leo and the Outlander feeling.",
+    },
+    body: {
+      tr: `Müfredatların Güvenli Duvarlarından, İnsan Ruhunun Liderliğine Uzanan Bir Dönüşüm Hikayesi
+
+Hayatınızın bir döneminde, ait olduğunuz zamandan ve mekandan tamamen kopmuş gibi hissettiniz mi? Sanki yanlış bir yüzyılda doğmuşsunuz, etrafınızdaki herkes size yabancıymış ve siz tek başınıza, bilmediğiniz bir kurallar silsilesiyle yönetilen yabancı bir toprağa düşmüşsünüz gibi...
+
+Eğer astrolojiye ve özellikle ruhun evrimsel yolculuğunu inceleyen karmik astrolojiye meraklıysanız, bu hissin popüler kültürdeki karşılığını hemen tanıyacaksınız: Outlander Hissi.
+
+Peki, ünlü dizi Outlander'daki Claire gibi, güvenli ve rasyonel dünyasından kopup bilinmez bir geçmişin tam ortasında kendi liderliğini ilan etmek zorunda kalan o ruh hali, doğum haritanızdaki Kuzey Ay Düğümü Aslan (KAD Aslan) yerleşimiyle nasıl bir bağa sahip? Gelin, ruhun bu büyüleyici zaman yolculuğunu ve bu uyanışı kendi kariyer dönüşümüm üzerinden birlikte inceleyelim.
+
+## Konfor Alanı: Güney Düğümü Kova'nın "Rasyonel" Dünyası
+
+Kuzey Düğümü Aslan olan birinin ruhsal bagajında (Güney Ay Düğümü) Kova enerjisi hakimdir. Kova; kuralları belirlenmiş sistemleri, mantığı, kitleleri ve toplumsal faydayı temsil eder. Tıpkı Claire'in 20. yüzyıldaki modern, rasyonel ve mesafeli hemşirelik hayatı gibi...
+
+Kariyerime bir öğretmen olarak başladığımda, tam olarak bu Güney Düğümü Kova konfor alanındaydım. Belirlenmiş bir müfredata uyuyor, sistemin bir parçası olarak hareket ediyor ve bilginizi kitlelere (sınıflara) aktarıyordunuz. Her şey eşit, adil ve güvenliydi. Sistem sizi koruyordu.
+
+Şunu çok net belirtmeliyim: Bir öğretmen zaten sınıfındaki her bir ruhu, her bir çocuğu tek tek gözetir, kalplerine dokunur. Bu, Aslan enerjisinin o koruyucu, şefkatli ve sevgi dolu yanının harika bir provasıdır. Benim yolculuğumdaki asıl dönüşüm, dokunduğum kalpler değil, üzerinde durduğum zemin oldu. Öğretmenlik yaparken ne kadar bireye odaklansam da, arkamda beni koruyan ve sınırları çizen devasa bir eğitim sistemi vardı.
+
+Ancak evren, bu ruhları sonsuza kadar o kolektif konfor alanında tutmak istemez. Tıpkı Claire'in taşa dokunup 18. yüzyıl İskoçya'sına fırlatılması gibi, hayat da KAD Aslan kişisini sarsıcı bir deneyimle kendi güvenli alanından koparıp alır.
+
+## Ara Durak: İnsan Kaynakları Yöneticiliği ile "Bireyi" Keşfetmek
+
+Ruhumdaki o Outlander dürtüsü uyandığında, ilk büyük kırılmayı yaşadım ve İnsan Kaynakları Yöneticiliğine geçiş yaptım. Bu geçiş, Kova'dan Aslan'a giden yoldaki en kritik köprüydü.
+
+Öğretmenlikteki o "genel kitle" algısından sıyrılıp, kurumsal dünyada sistemlerin içindeki "tek tek insanları" daha geniş bir perspektifle görmeye başladım. Bir yönetici olarak yetenekleri keşfetmek, insanı merkeze almak ve organizasyonun liderlerinden biri olmak bana Aslan'ın o yönetim ve organizasyon gücünü fısıldıyordu. Ancak sistem hala kurumsaldı, hala bir yapının arkasındaydım. Ruhum daha fazlasını, tamamen kendi sahnesini istiyordu.
+
+## Sahneye Çıkış: Danışmanlık, Koçluk ve "Beni Kutla" Dönüşümü
+
+İşte tam bu noktada, Claire'in tüm garantileri bırakıp geçmişe düşmesi gibi, ben de tüm kurumsal ve koruyucu yapıların dışına çıkıp bilinmezliğe adım attım. Bugün bir danışman ve koç olarak yoluma devam ediyorum.
+
+Bu son adım, o koruyucu sistem duvarlarını tamamen yıkıp, kendi adıma, kendi markamla, tek başıma sahneye çıkma cesaretiydi; yani tam bir Kuzey Düğümü Aslan uyanışı:
+
+- **Sistemin Arkasından Çıkmak:** Artık arkama sığınacağım devlet, okul veya kurumsal bir marka (Kova) yok. Şimdi sahne benim; kendi markam, kendi sesim ve kendi vizyonumla (Aslan) buradayım.
+- **Kitlelerden Bireyin Kalbine:** Sınıflara veya şirket departmanlarına toplu seslenmeyi bıraktım; şimdi danışanlarımla birebir, kalpten kalbe bağ kuruyor ve onların kendi hayat sahnelerinde parlamalarına liderlik ediyorum.
+- **Kendi Kaderinin Hükümdarı Olmak:** Başkalarının sistemlerini yönetmeyi bıraktım; kendi işimin ve hayatımın "kralı/kraliçesi" oldum.
+
+## Neden Kendinizi Bir "Zaman Yolcusu" Gibi Hissediyorsunuz?
+
+Eğer KAD Aslan yerleşimine sahipseniz, kendinizi bu dünyaya veya yaşadığınız çevreye yabancı hissetmeniz çok doğaldır. Çünkü ruhunuz, alışık olduğu o "mesafeli ve entelektüel" Kova soğukluğundan, Aslan'ın "görünür, sıcak ve dramatik" sahnesine doğru itilmektedir.
+
+Bu geçiş tıpkı Claire'in korse giymeyi, kılıç kuşanmayı ve bambaşka bir çağın kurallarıyla oynamayı öğrenmesi gibidir. İlk başta adaptasyon sancısı çekersiniz. "Neden herkes beni izliyor?", "Neden tek başıma öne çıkmak zorundayım?" diye askeri bir disiplinle kendinizi sorgulayabilirsiniz. Yaşadığınız şey bir zaman yolculuğu değildir; ruhunuzun evrimsel sıçrayışıdır.
+
+## Son Söz: Kendi Krallığının Başrolü Olmak
+
+Outlander'da Claire, düştüğü o yabancı topraklarda sadece hayatta kalmakla kalmaz; aşkı, sadakati ve kendi gücünü keşfederek o dönemin en etkili figürlerinden biri haline gelir. Öğretmenlikle çocukların kalbine ektiğim o tohumlar, bugün koçluk koltuğunda yetişkinlerin hayat liderliğine rehberlik eden bir vizyona dönüştü.
+
+Eğer siz de hayatınızda radikal dönüşümler yaşıyor, kendinizi bazen bu dünyaya yabancı hissediyorsanız, ruhunuzun pusulasına bakın. Siz kalabalıkların içinde sıradan, sisteme hizmet eden bir yüz olmak için değil; kendi hayat hikayenizin başrolü olmak için buradasınız. Kendi içinizdeki o görkemli Aslan'ı uyandırmaktan ve sahneye çıkmaktan korkmayın. Çünkü bu hayatta sizin için yazılan senaryo, figüranlık değil, bir liderlik hikayesi.`,
+      en: `A Transformation Story from the Safe Walls of Curricula to the Leadership of the Human Soul
+
+Have you ever felt, in some period of your life, completely severed from the time and place you belonged to? As if you had been born in the wrong century, as if everyone around you were a stranger, and as if you alone had fallen onto foreign ground governed by a chain of rules you did not know...
+
+If you are drawn to astrology — and especially to karmic astrology, which studies the soul's evolutionary journey — you will recognize this feeling's counterpart in popular culture at once: the Outlander Feeling.
+
+So how does that state of soul — like Claire in the famous series *Outlander*, torn from her safe and rational world and forced to claim her own leadership in the middle of an unknown past — connect with a North Node in Leo (NN Leo) placement in your birth chart? Come, let us explore this captivating time travel of the soul, and this awakening, through my own career transformation.
+
+## The Comfort Zone: The "Rational" World of the South Node in Aquarius
+
+In the spiritual baggage of someone with a North Node in Leo (the South Node), Aquarius energy prevails. Aquarius represents systems with fixed rules, logic, the masses, and social benefit. Just like Claire's modern, rational, and detached nursing life in the twentieth century...
+
+When I began my career as a teacher, I was exactly in that South Node Aquarius comfort zone. You followed a set curriculum, moved as part of the system, and passed your knowledge on to the masses (to classes). Everything was equal, fair, and safe. The system protected you.
+
+Let me be very clear about this: a teacher already watches over every single soul, every single child in the classroom, and touches their hearts. That is a wonderful rehearsal of Leo energy's protective, tender, and loving side. The real transformation on my journey was not the hearts I touched, but the ground I stood on. No matter how much I focused on the individual while teaching, behind me stood a vast education system that protected me and drew the boundaries.
+
+Yet the universe does not want to keep these souls forever in that collective comfort zone. Just as Claire touched the stone and was hurled into eighteenth-century Scotland, life also tears the NN Leo person from their safe ground with a jarring experience.
+
+## The Stopover: Discovering "the Individual" Through HR Management
+
+When that Outlander impulse in my soul awoke, I lived the first great rupture and moved into Human Resources management. That transition was the most critical bridge on the road from Aquarius to Leo.
+
+Stepping out of the "general mass" mindset of teaching, I began to see the "individuals one by one" inside corporate systems with a wider perspective. As a manager, discovering talent, putting the human being at the center, and becoming one of the organization's leaders whispered to me Leo's power of leadership and organization. Yet the system was still corporate; I was still behind a structure. My soul wanted more — an entirely own stage.
+
+## Taking the Stage: Consulting, Coaching, and the "Celebrate Me" Transformation
+
+Right at that point, like Claire dropping all guarantees and falling into the past, I too stepped outside every corporate and protective structure and into the unknown. Today I continue my path as a consultant and coach.
+
+That final step was the courage to tear down those protective system walls completely and take the stage alone, in my own name, with my own brand — a full North Node Leo awakening:
+
+- **Leaving the System Behind:** There is no longer a state, a school, or a corporate brand (Aquarius) to shelter behind. Now the stage is mine; I am here with my own brand, my own voice, and my own vision (Leo).
+- **From the Masses to the Individual Heart:** I stopped addressing classes or company departments as a group; now I connect one-to-one with my clients, heart to heart, and lead them to shine on their own life stages.
+- **Becoming Sovereign of Your Own Destiny:** I stopped managing other people's systems; I became the "king/queen" of my own work and life.
+
+## Why Do You Feel Like a "Time Traveler"?
+
+If you have an NN Leo placement, feeling foreign to this world or to the circle you live in is entirely natural. Because your soul is being pushed from the "distant and intellectual" Aquarius cold it is used to, toward Leo's "visible, warm, and dramatic" stage.
+
+This passage is like Claire learning to wear a corset, to buckle on a sword, and to play by the rules of an entirely different age. At first you suffer the pain of adaptation. With almost military discipline you may ask yourself, "Why is everyone watching me?", "Why must I step forward alone?" What you are living is not time travel; it is your soul's evolutionary leap.
+
+## Final Word: Taking the Lead Role in Your Own Kingdom
+
+In *Outlander*, Claire does not merely survive on those foreign lands she falls into; by discovering love, loyalty, and her own power, she becomes one of the most influential figures of that era. The seeds I planted in children's hearts through teaching have today become a vision that, from the coaching chair, guides adults in the leadership of their lives.
+
+If you too are living radical transformations, and sometimes feel foreign to this world, look to your soul's compass. You are not here to be an ordinary face in the crowd, serving the system; you are here to take the lead role in your own life story. Do not fear waking the magnificent Leo within you and stepping onto the stage. Because the script written for you in this life is not an extra's part — it is a leadership story.`,
+    },
+  },
+  {
     slug: "aurora-kendi-gokyuzunu-yaratan-ates",
     date: "2026-08-03",
     tags: [
