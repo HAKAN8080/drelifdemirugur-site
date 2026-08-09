@@ -30,6 +30,125 @@ export type BlogPost = {
  */
 export const posts: BlogPost[] = [
   {
+    slug: "yasam-yolu-3-bilesik-sayilar-30-3",
+    date: "2026-08-09",
+    tags: [
+      "nümeroloji",
+      "numerology",
+      "yaşam yolu 3",
+      "life path 3",
+      "bileşik sayılar",
+      "compound numbers",
+      "30/3",
+      "12/3",
+      "21/3",
+      "İbnü'l Arabî",
+      "Elif Nile",
+      "kişisel gelişim",
+      "personal development",
+    ],
+    title: {
+      tr: "Yaşam Yolu 3, 30/3 ve Bileşik Sayılar: Aynı Sayı Neden Farklı Yaşanır?",
+      en: "Life Path 3, 30/3, and Compound Numbers: Why the Same Number Lives Differently",
+    },
+    description: {
+      tr: "Nümerolojide 12/3, 21/3 ve 30/3 farkı, sıfırın anlamı ve İbnü'l Arabî'ye dair bir tevafuk.",
+      en: "In numerology, the difference between 12/3, 21/3 and 30/3, the meaning of zero, and a synchronicity with Ibn Arabi.",
+    },
+    body: {
+      tr: `İki insan tanıyorum. İkisinin de yaşam yolu 3. İkisi de yaratıcı, ikisi de kelimelerle arası iyi. Ama biri sahnede parlıyor, kalabalık onun oksijeni. Öteki sessiz bir odada yazıyor ve yazdıklarını bazen kimseye göstermiyor.
+
+Aynı sayı. Bambaşka iki hayat. Nümeroloji buna bir cevap verir: son sayı aynı olabilir, ama oraya varılan yol aynı değildir.
+
+## İndirgemeden Önceki Sayı
+
+Yaşam yolunu hesaplarken doğum tarihindeki rakamları toplarız ve tek haneye inene kadar devam ederiz. Çoğu insan sadece son sayıya bakar. Oysa asıl hikâye, çoğu zaman bir önceki durakta saklıdır.
+
+Örneğin üç ayrı doğum tarihi düşün. Birinin rakamları toplandığında 12 ediyor, ötekininki 21, üçüncüsününki 30. Üçü de sonunda 3'e iner. Ama nümeroloji geleneği bu ara toplamları birbirinden ayırır ve her birini "bileşik sayı" olarak ayrıca okur. Yazımda 30/3 gibi gösterilir: önce yolun rengi, sonra yolun kendisi.
+
+**12/3** yolcusu, 3'e 1'in öncülüğü ve 2'nin hassasiyetiyle gelir. Yaratıcılığı ilişkiler içinde mayalanır; ilhamını çoğu zaman bir başkasının gözünde bulur. Dersi, kendi sesini başkalarının onayından ayırt etmektir.
+
+**21/3** aynı iki rakamı ters sırayla taşır. Önce dinler, sonra öne çıkar. Bu yolcunun yaratıcılığı daha sabırlıdır, demlenerek gelir. Dersi, beklemekle ertelemek arasındaki ince çizgidir.
+
+**30/3** ise başka bir şeydir. Çünkü yanında bir sıfır taşır.
+
+## Sıfırın Ağırlığı
+
+Nümerolojide sıfır bir hiçlik değildir. Bir güçlendiricidir; yanındaki sayıyı saf hâline yaklaştırır. 30, üçün başka hiçbir rakamla seyrelmemiş, katkısız hâlidir. Bu yüzden bazı nümerologlar 30/3'e "mistik üç" der.
+
+30/3 yolcusunda ifade, bir yetenek olmaktan çıkıp bir çağrıya dönüşür. Konuşmak, yazmak, anlatmak onun için kariyer seçeneği değildir; nefes almanın başka bir biçimidir. Bu yolun armağanı, kelimenin insanlara dokunan tarafını bilmektir. Gölgesi ise şudur: katkısız bir armağan, sahibini yalnızlaştırabilir. 30/3, sesi duyulmadığında ötekilerden daha derin kırılır, çünkü sesi ile kendisi arasında mesafe yoktur.
+
+Ben bu yolu içeriden tanıyorum. Kendi sayım da 30/3 ve bu yazı dizisi biraz da o yüzden var: kelimeye borcunu ancak kelimeyle ödeyebilen biri olarak.
+
+Ve tevafuklar burada çoğalmaya başlıyor. Annem 6 yolunun yolcusu, sofranın; babam 9'un, tamamlanmanın. Bakımın sayısıyla bırakabilmenin sayısı arasında büyüdüm ve o evin çocuğu 3'ü, sesi taşıyor. Sayımı annemin sayısına ekle, babamınki çıkar: üç artı altı, dokuz. Nümeroloji 3, 6 ve 9'u öteden beri bir sayı ailesi gibi okumayı sever. İnternet de sever; genellikle Tesla'ya atfedilen, bu üç sayının ihtişamına dair büyük bir sözle birlikte. O söz Tesla'nın yazdığı ya da söylediği hiçbir kayıtta bulunamadı; ben de onu ait olduğu yere, folklora bırakıyorum. Aritmetiğin ünlü bir isme ihtiyacı yok zaten. Bizim evde hesap kendiliğinden tutuyor.
+
+## Bir Tevafuk: Şeyh-i Ekber ve Üç
+
+Burada bir parantez açmak istiyorum. Dikkatli bir parantez.
+
+İbnü'l Arabî'nin yaygın kabul edilen Miladi doğum tarihi 28 Temmuz 1165'tir. Rakamları toplarsan 30 eder; 30 da 3'e iner. Yani modern nümerolojinin cetveliyle bakıldığında, sekiz yüz elliden fazla eser bırakmış, geleneğin "Şeyh-i Ekber" yani en büyük şeyh diye andığı bir sufi, ifadenin sayısına denk düşer.
+
+Ama bu hesabın zemini kaygandır ve bunu söylemek gerekir. O, Hicri takvimin çocuğuydu; Miladi karşılığı kaynaktan kaynağa değişir ve farklı bir tarih alırsan farklı bir sayı çıkar. Üstelik kendi geleneği sayıya bambaşka bir kapıdan bakardı: doğum gününe değil, harflere. Sufi harf ilminde her harfin bir değeri vardır ve mana, isimlerin içinde aranır, takvimin rakamlarında değil.
+
+O yüzden bunu bir kanıt olarak sunmuyorum. Bir göz kırpma olarak sunuyorum. Kanıt ikna etmeye çalışır; tevafuk sadece gülümser ve geçer. Ömrünü kelimeye vermiş bir insanın, kelimenin sayısına denk gelmesi... İnsanın "elbette" diyesi geliyor. Ama "elbette" demek zorunda da değilsin. Tevafukun güzelliği, kimseyi zorlamamasında.
+
+## Kendi Ara Toplamını Bul
+
+Şimdi sıra sende. [Yaşam yolunu zaten biliyorsan](https://drelifdemirugur.com/tr/blog/yasam-yolu-sayilari), bu kez bir adım geriye git: tek haneye inmeden önceki toplamın kaçtı? 12 mi, 21 mi, 30 mu? Belki 25/7'sin, belki 17/8. O ara sayı, yolunun hangi tonda döşendiğini anlatır.
+
+Son sayı nereye gittiğini söyler. Bileşik sayı, oraya nasıl yürüdüğünü.
+
+Ve belki de bütün mesele budur: iki insan aynı kapıdan girebilir, ama hiçbir zaman aynı yoldan gelmez. Sayılar bunu bize kanıtlamaz. Sadece hatırlatır.
+
+*Bu yazı kültürel ve kişisel gelişim amaçlıdır; bilimsel bir iddia veya kehanet niteliği taşımaz.*`,
+      en: `I know two people. Both have life path 3. Both are creative, both are good with words. But one shines on a stage; the crowd is their oxygen. The other writes in a quiet room and sometimes shows the writing to no one.
+
+The same number. Two entirely different lives. Numerology offers an answer: the final number may be the same, but the road that arrives there is not.
+
+## The Number Before Reduction
+
+When we calculate a life path, we add the digits of the birth date and keep going until we reach a single digit. Most people look only at that final number. Yet the real story is often hidden at the stop just before.
+
+Think of three different birth dates. One sums to 12, another to 21, a third to 30. All three reduce to 3. But the numerology tradition separates these intermediate totals and reads each as a "compound number" in its own right. In writing it appears as 30/3: first the color of the road, then the road itself.
+
+The **12/3** traveler arrives at 3 with the initiative of 1 and the sensitivity of 2. Their creativity ferments inside relationships; they often find inspiration in someone else's gaze. Their lesson is to tell their own voice apart from other people's approval.
+
+**21/3** carries the same two digits in reverse order. First they listen, then they step forward. This traveler's creativity is more patient; it arrives by steeping. Their lesson is the fine line between waiting and postponing.
+
+**30/3** is something else. Because it carries a zero beside it.
+
+## The Weight of Zero
+
+In numerology, zero is not a nothing. It is an intensifier; it draws the number beside it toward its pure form. 30 is three undiluted by any other digit — its unadulterated state. That is why some numerologists call 30/3 the "mystical three."
+
+In the 30/3 traveler, expression stops being a talent and becomes a calling. To speak, to write, to tell is not a career option for them; it is another way of breathing. The gift of this path is knowing the side of the word that touches people. Its shadow is this: an undiluted gift can isolate its bearer. When their voice goes unheard, 30/3 breaks more deeply than others, because there is no distance between their voice and themselves.
+
+I know this path from the inside. My own number is also 30/3, and this series of essays exists partly for that reason: as someone who can repay a debt to the word only with the word.
+
+And the synchronicities begin to multiply here. My mother walks path 6, the table; my father path 9, completion. I grew up between the number of tending and the number of being able to let go, and the child of that house carries 3 — the voice. Add my number to my mother's, and my father's appears: three plus six, nine. Numerology has long liked to read 3, 6, and 9 as a family of numbers. The internet likes it too, usually together with a grand saying about the majesty of these three numbers, attributed to Tesla. That saying appears in no record Tesla wrote or spoke; I leave it where it belongs, in folklore. Arithmetic does not need a famous name anyway. In our house the math already adds up on its own.
+
+## A Synchronicity: The Greatest Sheikh and Three
+
+I want to open a parenthesis here. A careful parenthesis.
+
+Ibn Arabi's commonly accepted Gregorian birth date is 28 July 1165. Add the digits and you get 30; 30 reduces to 3. So by the ruler of modern numerology, a Sufi who left more than eight hundred and fifty works — whom the tradition calls "Sheikh al-Akbar," the greatest sheikh — coincides with the number of expression.
+
+But the ground of this calculation is slippery, and that must be said. He was a child of the Hijri calendar; the Gregorian equivalent shifts from source to source, and a different date yields a different number. Moreover his own tradition looked at number through an entirely different door: not birthdays, but letters. In Sufi letter science every letter has a value, and meaning is sought inside names, not in the digits of a calendar.
+
+So I am not offering this as proof. I am offering it as a wink. Proof tries to persuade; synchronicity only smiles and passes. That a person who gave a life to the word should coincide with the number of the word... one wants to say "of course." But you do not have to say "of course." The beauty of synchronicity is that it forces no one.
+
+## Find Your Own Intermediate Sum
+
+Now it is your turn. If [you already know your life path](https://drelifdemirugur.com/en/blog/yasam-yolu-sayilari), this time step one pace back: what was your total before reducing to a single digit? Was it 12, 21, 30? Perhaps you are 25/7, perhaps 17/8. That intermediate number tells the tone in which your road was laid.
+
+The final number says where you are going. The compound number says how you walked there.
+
+And perhaps that is the whole matter: two people can enter through the same door, but they never arrive by the same road. Numbers do not prove this to us. They only remind us.
+
+*This article is intended for cultural and personal development; it makes no scientific claim and is not a prophecy.*`,
+    },
+  },
+  {
     slug: "aurora-isik-karanlik-uyanma-cesareti",
     date: "2026-08-09",
     tags: [
@@ -579,7 +698,9 @@ Sayıların bir iç dili olduğu sezgisi yeni de değil. Sufi gelenekte harfleri
 
 Kendi yaşam yolunu hesapla. Sonra sadece gölgesine değil, armağanına da bak. Çünkü her yol, yürüyeni bekler.
 
-*Bu yazı kültürel ve kişisel gelişim amaçlıdır; bilimsel bir iddia veya kehanet niteliği taşımaz.*`,
+*Bu yazı kültürel ve kişisel gelişim amaçlıdır; bilimsel bir iddia veya kehanet niteliği taşımaz.*
+
+[Yaşam Yolu 3 ve bileşik sayılar — 12/3, 21/3, 30/3](https://drelifdemirugur.com/tr/blog/yasam-yolu-3-bilesik-sayilar-30-3)`,
       en: `Some questions follow us for years. Why do I keep meeting the same lesson in different costumes? Why do certain doors open for me easily while others never move? Why does my heart keep pulling in one direction while my mind points to another?
 
 Numerology does not answer these questions. What it offers is a mirror, and in that mirror, a rhythm: the one the intelligence of the universe hummed on the day you were born. Numerologists call it your life path number.
@@ -670,7 +791,9 @@ Maybe that's the most beautiful thing about this practice: it doesn't dress you 
 
 Calculate your path. Then look not only at its shadow but at its gift. Every road waits for its traveler.
 
-*This article is intended for cultural and personal reflection; it makes no scientific or predictive claims.*`,
+*This article is intended for cultural and personal reflection; it makes no scientific or predictive claims.*
+
+[Life Path 3 and compound numbers — 12/3, 21/3, 30/3](https://drelifdemirugur.com/en/blog/yasam-yolu-3-bilesik-sayilar-30-3)`,
     },
   },
 ];

@@ -78,7 +78,7 @@ export function MarkdownBody({ source }: { source: string }) {
       elements.push(
         <h2
           key={`h2-${bi}`}
-          className="mt-12 border-t border-cloud-200/60 pt-10 font-[family-name:var(--font-display)] text-2xl font-semibold tracking-tight text-cloud-ink md:text-[1.85rem]"
+          className="mt-12 border-t border-cloud-200/60 pt-10 font-[family-name:var(--font-display)] text-2xl font-semibold tracking-tight text-purple-600 md:text-[1.85rem]"
         >
           {renderInline(trimmed.slice(3), `h2-${bi}`)}
         </h2>,
