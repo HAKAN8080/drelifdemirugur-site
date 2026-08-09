@@ -98,7 +98,7 @@ export default async function BlogPostPage({ params }: Props) {
   };
 
   return (
-    <article className="mx-auto max-w-3xl px-5 py-14 md:px-8 md:py-20">
+    <article className="mx-auto max-w-2xl px-5 py-14 md:px-8 md:py-20">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -111,21 +111,28 @@ export default async function BlogPostPage({ params }: Props) {
         ← {t("back")}
       </Link>
 
-      <header className="mt-8 border-b border-cloud-200 pb-8">
+      <header className="mt-8 border-b border-cloud-200/80 pb-10">
         <time
           dateTime={post.date}
-          className="text-sm font-medium tracking-wide text-purple-600"
+          className="text-xs font-semibold tracking-[0.16em] text-purple-600 uppercase"
         >
           {formatPostDate(post.date, locale)}
         </time>
-        <h1 className="mt-3 font-[family-name:var(--font-display)] text-4xl leading-tight text-cloud-ink md:text-5xl">
+        <h1 className="mt-4 font-[family-name:var(--font-display)] text-[2.15rem] leading-[1.15] text-cloud-ink sm:text-4xl md:text-5xl">
           {title}
         </h1>
-        <p className="mt-4 text-lg text-cloud-muted">{description}</p>
+        <p className="mt-5 max-w-prose text-lg leading-relaxed text-cloud-muted">
+          {description}
+        </p>
         {post.tags.length > 0 ? (
-          <ul className="mt-5 flex flex-wrap gap-x-3 gap-y-1 text-xs text-cloud-muted/80">
+          <ul className="mt-6 flex flex-wrap gap-2 text-xs text-cloud-muted">
             {post.tags.slice(0, 6).map((tag) => (
-              <li key={tag}>{tag}</li>
+              <li
+                key={tag}
+                className="rounded-full border border-cloud-200/90 bg-white/40 px-3 py-1"
+              >
+                {tag}
+              </li>
             ))}
           </ul>
         ) : null}
@@ -161,7 +168,7 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
       ) : null}
 
-      <div className="mt-10">
+      <div className="mt-12">
         <MarkdownBody source={body} />
       </div>
     </article>

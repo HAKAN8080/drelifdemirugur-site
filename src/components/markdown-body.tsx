@@ -66,7 +66,7 @@ export function MarkdownBody({ source }: { source: string }) {
       elements.push(
         <h3
           key={`h3-${bi}`}
-          className="mt-8 font-[family-name:var(--font-display)] text-xl font-semibold text-cloud-ink md:text-2xl"
+          className="mt-10 font-[family-name:var(--font-display)] text-xl font-semibold tracking-tight text-cloud-ink md:text-2xl"
         >
           {renderInline(trimmed.slice(4), `h3-${bi}`)}
         </h3>,
@@ -78,7 +78,7 @@ export function MarkdownBody({ source }: { source: string }) {
       elements.push(
         <h2
           key={`h2-${bi}`}
-          className="mt-10 font-[family-name:var(--font-display)] text-2xl font-semibold text-cloud-ink md:text-3xl"
+          className="mt-12 border-t border-cloud-200/60 pt-10 font-[family-name:var(--font-display)] text-2xl font-semibold tracking-tight text-cloud-ink md:text-[1.85rem]"
         >
           {renderInline(trimmed.slice(3), `h2-${bi}`)}
         </h2>,
@@ -89,9 +89,12 @@ export function MarkdownBody({ source }: { source: string }) {
     const listLines = trimmed.split("\n");
     if (listLines.every((line) => /^[-*]\s+/.test(line.trim()))) {
       elements.push(
-        <ul key={`ul-${bi}`} className="mt-4 list-disc space-y-2 pl-5 text-cloud-muted">
+        <ul
+          key={`ul-${bi}`}
+          className="mt-5 list-disc space-y-3 pl-5 text-[1.05rem] leading-[1.75] text-cloud-muted marker:text-purple-500/70"
+        >
           {listLines.map((line, li) => (
-            <li key={`li-${bi}-${li}`} className="leading-relaxed">
+            <li key={`li-${bi}-${li}`} className="pl-1">
               {renderInline(line.trim().replace(/^[-*]\s+/, ""), `li-${bi}-${li}`)}
             </li>
           ))}
@@ -100,8 +103,25 @@ export function MarkdownBody({ source }: { source: string }) {
       return;
     }
 
+    // Opening italic-only paragraph → pull quote
+    const italicOnly = trimmed.match(/^\*([^*]+)\*$/);
+    if (italicOnly && bi === 0) {
+      elements.push(
+        <p
+          key={`pq-${bi}`}
+          className="my-2 border-l-2 border-purple-500/45 pl-5 font-[family-name:var(--font-display)] text-xl leading-relaxed text-cloud-ink/90 italic md:text-2xl"
+        >
+          {italicOnly[1]}
+        </p>,
+      );
+      return;
+    }
+
     elements.push(
-      <p key={`p-${bi}`} className="mt-4 text-[1.05rem] leading-[1.75] text-cloud-muted">
+      <p
+        key={`p-${bi}`}
+        className="mt-5 text-[1.08rem] leading-[1.85] text-cloud-muted md:text-[1.12rem]"
+      >
         {trimmed.split("\n").map((line, li, arr) => (
           <span key={`pl-${bi}-${li}`}>
             {renderInline(line, `p-${bi}-${li}`)}

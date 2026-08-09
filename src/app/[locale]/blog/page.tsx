@@ -60,11 +60,15 @@ export default async function BlogIndexPage({ params }: Props) {
   const allPosts = getAllPosts();
 
   return (
-    <div className="mx-auto max-w-3xl px-5 py-14 md:px-8 md:py-20">
-      <h1 className="font-[family-name:var(--font-display)] text-4xl text-cloud-ink md:text-5xl">
-        {t("title")}
-      </h1>
-      <p className="mt-4 max-w-prose text-lg text-cloud-muted">{t("description")}</p>
+    <div className="mx-auto max-w-2xl px-5 py-14 md:px-8 md:py-20">
+      <header className="border-b border-cloud-200/80 pb-10">
+        <h1 className="font-[family-name:var(--font-display)] text-4xl leading-tight text-cloud-ink md:text-5xl">
+          {t("title")}
+        </h1>
+        <p className="mt-5 max-w-prose text-lg leading-relaxed text-cloud-muted">
+          {t("description")}
+        </p>
+      </header>
 
       {allPosts.length === 0 ? (
         <div className="mt-14 border-l-2 border-purple-500/40 pl-5">
@@ -73,18 +77,21 @@ export default async function BlogIndexPage({ params }: Props) {
           </p>
         </div>
       ) : (
-        <ul className="mt-14 space-y-0 divide-y divide-cloud-200/90">
+        <ul className="mt-4">
           {allPosts.map((post) => {
             const { title, description } = copyForPost(post, locale);
             return (
-              <li key={post.slug} className="py-10 first:pt-0">
+              <li
+                key={post.slug}
+                className="border-b border-cloud-200/70 py-11 last:border-b-0"
+              >
                 <time
                   dateTime={post.date}
-                  className="text-sm font-medium tracking-wide text-purple-600"
+                  className="text-xs font-semibold tracking-[0.16em] text-purple-600 uppercase"
                 >
                   {formatPostDate(post.date, locale)}
                 </time>
-                <h2 className="mt-2 font-[family-name:var(--font-display)] text-2xl text-cloud-ink md:text-3xl">
+                <h2 className="mt-3 font-[family-name:var(--font-display)] text-[1.65rem] leading-snug text-cloud-ink md:text-3xl">
                   <Link
                     href={{
                       pathname: "/blog/[slug]",
@@ -95,7 +102,7 @@ export default async function BlogIndexPage({ params }: Props) {
                     {title}
                   </Link>
                 </h2>
-                <p className="mt-3 max-w-prose text-[0.95rem] leading-relaxed text-cloud-muted">
+                <p className="mt-4 max-w-prose text-base leading-[1.7] text-cloud-muted">
                   {description}
                 </p>
                 <Link
@@ -103,9 +110,10 @@ export default async function BlogIndexPage({ params }: Props) {
                     pathname: "/blog/[slug]",
                     params: { slug: post.slug },
                   }}
-                  className="mt-4 inline-block text-sm font-semibold text-purple-600 transition hover:text-purple-500"
+                  className="mt-5 inline-flex items-center gap-1 text-sm font-semibold tracking-wide text-purple-600 transition hover:text-purple-500"
                 >
                   {t("readMore")}
+                  <span aria-hidden="true">→</span>
                 </Link>
               </li>
             );

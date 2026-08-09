@@ -29,6 +29,137 @@ export type BlogPost = {
  */
 export const posts: BlogPost[] = [
   {
+    slug: "aurora-isik-karanlik-uyanma-cesareti",
+    date: "2026-07-15",
+    tags: [
+      "Aurora",
+      "Nile Space",
+      "Elif Nile",
+      "roman",
+      "novel",
+      "koçluk",
+      "coaching",
+      "liderlik",
+      "leadership",
+      "Outlander",
+      "Dr. Elif Demir Uğur",
+      "Medium",
+    ],
+    coverImage: "/aurora-cover.png",
+    title: {
+      tr: "Aurora: Işık, Karanlık ve Uyanma Cesareti Üzerine Bir Hikâye",
+      en: "Aurora: A Story of Light, Darkness, and the Courage to Awaken",
+    },
+    description: {
+      tr: "Nile Space’e hoş geldiniz — kim olduğum, neden yazdığım ve Aurora’yı neden yazdığım. Yaşadığınız hayat, sizi bekleyen hayatın yalnızca gölgesi olsaydı?",
+      en: "Welcome to Nile Space — who I am, why I write, and why I wrote Aurora. What if the life you were living was only the shadow of the one waiting for you?",
+    },
+    body: {
+      tr: `*Yaşadığınız hayat, sizi bekleyen hayatın yalnızca gölgesi olsaydı?*
+
+Nile Space’e hoş geldiniz. Buraya yeni geldiyseniz, başlamak için en doğru yer burası. Kim olduğumu, neden yazdığımı ve neden hayatımın yıllarını Aurora adlı bir romana verdiğimi size burada anlatıyorum.
+
+Kendinize bir kahve alın. Bu, hikâyeler üzerine bir hikâye.
+
+## Kimim
+
+Adım Dr. Elif Demir Uğur. Elif Nile mahlasıyla yazıyorum.
+
+Meslek hayatımı bir koç olarak geçirdim. Motivasyon konuşmacısı türünden değil. Öğleden sonra saat üçte, sessiz bir odada, karşıdaki insanın eski hayatının artık anlam ifade etmediği tam o anda karşısında oturan türden. Master Certified Coach (ICF MCC) ve sistem koçu (ORSCC) olarak yüzlerce böyle ana tanık oldum. Yöneticiler, anneler, kurucular, alanlarının zirvesindeki insanlar — bir sabah uyanıp şunu düşünenler: bu o değil.
+
+O eşik beni büyüler. Olduğunuz kişi ile olmakta olduğunuz kişi arasındaki dar geçit. Şimdiye kadar yazdığım her anlamlı şey o geçitte yaşar.
+
+Medium’da iki sesle yazıyorum. Nile Soul içeriye bakar: bilinç, anlam, dönüşümün sessiz mekanikleri. Grounded Authority dışarıya bakar: varlık, liderlik, zırhsız gücünüzde durmak.
+
+Aurora, bu iki sesin tek bir hikâyede birleştiği yerdir.
+
+## Aurora’yı Neden Yazdım
+
+Yıllarca koçluk danışanlarım bana bir seansta cevaplayamayacağım sorular sordular. Eğitimim eksik olduğu için değil; bazı sorular bir saate sığamayacak kadar büyük olduğu için. Karanlık nereden gelir? Uyanış, iyileştirmeden önce neden acıtır? Bir ruh aslında ne içindir?
+
+Kurgu, o soruları taşıyacak kadar büyük tek odaydı. Ben de bir tane inşa ettim.
+
+Aurora yavaş yavaş şekil aldı. İki ölçek arasında hareket eder: kozmik ve içsel. Bir yanda yaratılışın kendisi, ışığın doğuşu, evrenin mimarisi. Diğer yanda kayıp, aşk ve gerçekten kim olduğunuz haline gelmenin bedeliyle derinden kişisel bir yüzleşme.
+
+Eğer Outlander’ı sevdiyseniz, ulaşmaya çalıştığım hissi zaten bilirsiniz: sizi dünyalar arasında taşıyan, aşkın ve kaderin tek bir ömrün sınırları içinde kalmayı reddettiği bir hikâye. Aurora aynı duygusal bölgede yaşar; ama yüzyıllardan değil, bilinçten geçer. Daha az tarih, daha çok kozmos. Özünde aynı soru vardır: gerçekten size ait olan ipliği izlemek için neyi riske atardınız?
+
+Bu, size cevaplar sunan bir kitap değil. Uzun bir gecede iyi bir yol arkadaşının yaptığı gibi, soruların içinde sizinle oturan bir kitaptır.
+
+## Aurora’yı Nerede Bulabilirsiniz
+
+Roman, dünya çapında ebook olarak iki baskıyla yayında.
+
+İngilizce baskı (ISBN 978–625–90690–3–6)
+
+- Amazon Kindle: [https://www.amazon.com/dp/B0HC2FWZ74](https://www.amazon.com/dp/B0HC2FWZ74)
+- Rakuten Kobo: [https://writinglife.kobo.com/v2/ebooks/ebook/7b52fa9c-c85d-4088-a1f8-f410e05447f1](https://writinglife.kobo.com/v2/ebooks/ebook/7b52fa9c-c85d-4088-a1f8-f410e05447f1)
+
+Thorius Yayınları tarafından yayımlanmıştır. Yeni platformlar ekleniyor; her biri yayına girdikçe bu sayfayı güncelleyeceğim.
+
+## Benimle Kalın
+
+- Web sitem: [drelifdemirugur.com](https://drelifdemirugur.com)
+- Nile Soul ve Grounded Authority’den yeni denemeler için Medium’da beni takip edin: [medium.com/@theevolvedwoman](https://medium.com/@theevolvedwoman)
+
+Bir şey daha. Aurora’yı okur ve içinde bir şey sizi hareket ettirirse, bana yazın. Buraya bir yanıt bırakın ya da web sitem üzerinden bana ulaşın. Bir roman, yazar dosyayı kapattığında yalnızca yarı bitmiştir. Diğer yarısını okur yazar.
+
+## Türkçe Okurlarım İçin
+
+Aurora’nın Türkçe baskısı da yayında. Yukarıdaki bağlantılardan Amazon Kindle ve Kobo üzerinden ulaşabilirsiniz. Nile Space’te İngilizce yazıyorum; Türkçe yazılarım için drelifdemirugur.com adresindeki bloguma bekliyorum.`,
+      en: `*What if the life you were living was only the shadow of the one waiting for you?*
+
+Welcome to Nile Space. If you have just arrived here, this is the best place to start. This is where I tell you who I am, why I write, and why I spent years of my life on a novel called Aurora.
+
+Pour yourself a coffee. This is a story about stories.
+
+## Who I Am
+
+My name is Dr. Elif Demir Uğur. I write under the pen name Elif Nile.
+
+I have spent my professional life as a coach. Not the motivational kind. The kind who sits across from a person at three in the afternoon, in a quiet room, at the exact moment their old life stops making sense. As a Master Certified Coach (ICF MCC) and systems coach (ORSCC), I have witnessed hundreds of these moments. Executives, mothers, founders, people at the top of their field who woke up one morning and thought: this is not it.
+
+That threshold fascinates me. The narrow passage between who you were and who you are becoming. Every meaningful thing I have ever written lives in that passage.
+
+Here on Medium, I write in two voices. Nile Soul goes inward: consciousness, meaning, the quiet mechanics of transformation. Grounded Authority goes outward: presence, leadership, standing in your power without armor.
+
+Aurora is where the two voices became one story.
+
+## Why I Wrote Aurora
+
+For years, my coaching clients asked me questions I could not answer in a session. Not because I lacked the training, but because some questions are too large for an hour. Where does darkness come from? Why does awakening hurt before it heals? What is a soul actually for?
+
+Fiction was the only room big enough to hold those questions. So I built one.
+
+Aurora took shape slowly. It moves between two scales: the cosmic and the intimate. On one side, creation itself, the birth of light, the architecture of the universe. On the other, a deeply personal reckoning with loss, love, and the price of becoming who you really are.
+
+If you have ever loved Outlander, you already know the feeling I am reaching for: a story that carries you between worlds, where love and destiny refuse to stay within the borders of a single lifetime. Aurora lives in that same emotional territory, but it travels through consciousness rather than centuries. Less history, more cosmos. The heart of it is the same: what would you risk to follow the thread that is truly yours?
+
+This is not a book that hands you answers. It is a book that sits with you in the questions, the way a good companion does on a long night.
+
+## Where to Find Aurora
+
+The novel is available worldwide as an ebook, in two editions.
+
+English edition (ISBN 978–625–90690–3–6)
+
+- Amazon Kindle: [https://www.amazon.com/dp/B0HC2FWZ74](https://www.amazon.com/dp/B0HC2FWZ74)
+- Rakuten Kobo: [https://writinglife.kobo.com/v2/ebooks/ebook/7b52fa9c-c85d-4088-a1f8-f410e05447f1](https://writinglife.kobo.com/v2/ebooks/ebook/7b52fa9c-c85d-4088-a1f8-f410e05447f1)
+
+Published by Thorius Yayınları. New platforms are being added, and I will keep this page updated as each one goes live.
+
+## Stay With Me
+
+- My website: [drelifdemirugur.com](https://drelifdemirugur.com)
+- Follow me here on Medium for new essays from Nile Soul and Grounded Authority: [medium.com/@theevolvedwoman](https://medium.com/@theevolvedwoman)
+
+And one more thing. If you read Aurora and something in it moves you, write to me. Leave a response here, or reach me through my website. A novel is only half finished when the author closes the file. The reader writes the other half.
+
+## For My Turkish Readers
+
+Aurora’s Turkish edition is also out. You can reach it via Amazon Kindle and Kobo through the links above. On Nile Space I write in English; for my Turkish writing, I welcome you to my blog at drelifdemirugur.com.`,
+    },
+  },
+  {
     slug: "ruhun-zaman-yolculugu-kuzey-ay-dugumu-aslan-outlander",
     date: "2026-08-08",
     tags: [
