@@ -24,13 +24,14 @@ export type BlogPost = {
 
 /**
  * How to add a new post:
- * 1. Append an object to `posts` below (unique `slug`, ISO `date`, tr/en fields).
- * 2. Rebuild / redeploy. Listing, sitemap, and `/blog/[slug]` pick it up automatically.
+ * 1. Append an object to `posts` below (unique `slug`, ISO `date` = today YYYY-MM-DD, tr/en fields).
+ * 2. Always use the calendar date of the day the post is added (never backdate unless asked).
+ * 3. Rebuild / redeploy. Listing, sitemap, and `/blog/[slug]` pick it up automatically.
  */
 export const posts: BlogPost[] = [
   {
     slug: "aurora-isik-karanlik-uyanma-cesareti",
-    date: "2026-07-15",
+    date: "2026-08-09",
     tags: [
       "Aurora",
       "Nile Space",
