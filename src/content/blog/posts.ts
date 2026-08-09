@@ -207,7 +207,7 @@ Bu, size cevaplar sunan bir kitap değil. Uzun bir gecede iyi bir yol arkadaşı
 
 ## Aurora’yı Nerede Bulabilirsiniz
 
-Roman, dünya çapında ebook olarak iki baskıyla yayında.
+Roman, dünya çapında e-book olarak iki baskıyla yayında.
 
 İngilizce baskı (ISBN 978–625–90690–3–6)
 
@@ -225,7 +225,7 @@ Bir şey daha. Aurora’yı okur ve içinde bir şey sizi hareket ettirirse, ban
 
 ## Türkçe Okurlarım İçin
 
-Aurora’nın Türkçe baskısı da yayında. Yukarıdaki bağlantılardan Amazon Kindle ve Kobo üzerinden ulaşabilirsiniz. Nile Space’te İngilizce yazıyorum; Türkçe yazılarım için drelifdemirugur.com adresindeki bloguma bekliyorum.`,
+Aurora’nın Türkçe baskısı da yayında. Yukarıdaki bağlantılardan Amazon Kindle ve Kobo üzerinden ulaşabilirsiniz.`,
       en: `*What if the life you were living was only the shadow of the one waiting for you?*
 
 Welcome to Nile Space. If you have just arrived here, this is the best place to start. This is where I tell you who I am, why I write, and why I spent years of my life on a novel called Aurora.
@@ -258,7 +258,7 @@ This is not a book that hands you answers. It is a book that sits with you in th
 
 ## Where to Find Aurora
 
-The novel is available worldwide as an ebook, in two editions.
+The novel is available worldwide as an e-book, in two editions.
 
 English edition (ISBN 978–625–90690–3–6)
 
@@ -276,7 +276,7 @@ And one more thing. If you read Aurora and something in it moves you, write to m
 
 ## For My Turkish Readers
 
-Aurora’s Turkish edition is also out. You can reach it via Amazon Kindle and Kobo through the links above. On Nile Space I write in English; for my Turkish writing, I welcome you to my blog at drelifdemirugur.com.`,
+Aurora’s Turkish edition is also out. You can reach it via Amazon Kindle and Kobo through the links above.`,
     },
   },
   {
