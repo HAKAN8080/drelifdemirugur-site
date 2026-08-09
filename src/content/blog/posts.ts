@@ -185,7 +185,7 @@ Kendinize bir kahve alın. Bu, hikâyeler üzerine bir hikâye.
 
 Adım Dr. Elif Demir Uğur. Elif Nile mahlasıyla yazıyorum.
 
-Meslek hayatımı bir koç olarak geçirdim. Motivasyon konuşmacısı türünden değil. Öğleden sonra saat üçte, sessiz bir odada, karşıdaki insanın eski hayatının artık anlam ifade etmediği tam o anda karşısında oturan türden. Master Certified Coach (ICF MCC) ve sistem koçu (ORSCC) olarak yüzlerce böyle ana tanık oldum. Yöneticiler, anneler, kurucular, alanlarının zirvesindeki insanlar — bir sabah uyanıp şunu düşünenler: bu o değil.
+Meslek hayatımı bir koç olarak geçirdim. Öğleden sonra saat üçte, sessiz bir odada, karşıdaki insanın eski hayatının artık anlam ifade etmediği tam o anda karşısında oturan türden. Master Certified Coach (ICF MCC) ve sistem koçu (ORSCC) olarak yüzlerce böyle ana tanık oldum. Yöneticiler, anneler, kurucular, alanlarının zirvesindeki insanlar — bir sabah uyanıp şunu düşünenler: bu o değil.
 
 O eşik beni büyüler. Olduğunuz kişi ile olmakta olduğunuz kişi arasındaki dar geçit. Şimdiye kadar yazdığım her anlamlı şey o geçitte yaşar.
 
@@ -236,7 +236,7 @@ Pour yourself a coffee. This is a story about stories.
 
 My name is Dr. Elif Demir Uğur. I write under the pen name Elif Nile.
 
-I have spent my professional life as a coach. Not the motivational kind. The kind who sits across from a person at three in the afternoon, in a quiet room, at the exact moment their old life stops making sense. As a Master Certified Coach (ICF MCC) and systems coach (ORSCC), I have witnessed hundreds of these moments. Executives, mothers, founders, people at the top of their field who woke up one morning and thought: this is not it.
+I have spent my professional life as a coach. The kind who sits across from a person at three in the afternoon, in a quiet room, at the exact moment their old life stops making sense. As a Master Certified Coach (ICF MCC) and systems coach (ORSCC), I have witnessed hundreds of these moments. Executives, mothers, founders, people at the top of their field who woke up one morning and thought: this is not it.
 
 That threshold fascinates me. The narrow passage between who you were and who you are becoming. Every meaningful thing I have ever written lives in that passage.
 
