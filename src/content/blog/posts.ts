@@ -94,7 +94,7 @@ O yüzden bunu bir kanıt olarak sunmuyorum. Bir göz kırpma olarak sunuyorum. 
 
 ## Kendi Ara Toplamını Bul
 
-Şimdi sıra sende. [Yaşam yolunu zaten biliyorsan](https://drelifdemirugur.com/tr/blog/yasam-yolu-sayilari), bu kez bir adım geriye git: tek haneye inmeden önceki toplamın kaçtı? 12 mi, 21 mi, 30 mu? Belki 25/7'sin, belki 17/8. O ara sayı, yolunun hangi tonda döşendiğini anlatır.
+Şimdi sıra sende. Yaşam yolunu zaten biliyorsan, bu kez bir adım geriye git: tek haneye inmeden önceki toplamın kaçtı? 12 mi, 21 mi, 30 mu? Belki 25/7'sin, belki 17/8. O ara sayı, yolunun hangi tonda döşendiğini anlatır.
 
 Son sayı nereye gittiğini söyler. Bileşik sayı, oraya nasıl yürüdüğünü.
 
@@ -139,7 +139,7 @@ So I am not offering this as proof. I am offering it as a wink. Proof tries to p
 
 ## Find Your Own Intermediate Sum
 
-Now it is your turn. If [you already know your life path](https://drelifdemirugur.com/en/blog/yasam-yolu-sayilari), this time step one pace back: what was your total before reducing to a single digit? Was it 12, 21, 30? Perhaps you are 25/7, perhaps 17/8. That intermediate number tells the tone in which your road was laid.
+Now it is your turn. If you already know your life path, this time step one pace back: what was your total before reducing to a single digit? Was it 12, 21, 30? Perhaps you are 25/7, perhaps 17/8. That intermediate number tells the tone in which your road was laid.
 
 The final number says where you are going. The compound number says how you walked there.
 
@@ -216,13 +216,6 @@ Roman, dünya çapında e-book olarak iki baskıyla yayında.
 
 Thorius Yayınları tarafından yayımlanmıştır. Yeni platformlar ekleniyor; her biri yayına girdikçe bu sayfayı güncelleyeceğim.
 
-## Benimle Kalın
-
-- Web sitem: [drelifdemirugur.com](https://drelifdemirugur.com)
-- Nile Soul ve Grounded Authority’den yeni denemeler için Medium’da beni takip edin: [medium.com/@theevolvedwoman](https://medium.com/@theevolvedwoman)
-
-Bir şey daha. Aurora’yı okur ve içinde bir şey sizi hareket ettirirse, bana yazın. Buraya bir yanıt bırakın ya da web sitem üzerinden bana ulaşın. Bir roman, yazar dosyayı kapattığında yalnızca yarı bitmiştir. Diğer yarısını okur yazar.
-
 ## Türkçe Okurlarım İçin
 
 Aurora’nın Türkçe baskısı da yayında. Yukarıdaki bağlantılardan Amazon Kindle ve Kobo üzerinden ulaşabilirsiniz.`,
@@ -266,13 +259,6 @@ English edition (ISBN 978–625–90690–3–6)
 - Rakuten Kobo: [https://writinglife.kobo.com/v2/ebooks/ebook/7b52fa9c-c85d-4088-a1f8-f410e05447f1](https://writinglife.kobo.com/v2/ebooks/ebook/7b52fa9c-c85d-4088-a1f8-f410e05447f1)
 
 Published by Thorius Yayınları. New platforms are being added, and I will keep this page updated as each one goes live.
-
-## Stay With Me
-
-- My website: [drelifdemirugur.com](https://drelifdemirugur.com)
-- Follow me here on Medium for new essays from Nile Soul and Grounded Authority: [medium.com/@theevolvedwoman](https://medium.com/@theevolvedwoman)
-
-And one more thing. If you read Aurora and something in it moves you, write to me. Leave a response here, or reach me through my website. A novel is only half finished when the author closes the file. The reader writes the other half.
 
 ## For My Turkish Readers
 
@@ -699,8 +685,7 @@ Sayıların bir iç dili olduğu sezgisi yeni de değil. Sufi gelenekte harfleri
 Kendi yaşam yolunu hesapla. Sonra sadece gölgesine değil, armağanına da bak. Çünkü her yol, yürüyeni bekler.
 
 *Bu yazı kültürel ve kişisel gelişim amaçlıdır; bilimsel bir iddia veya kehanet niteliği taşımaz.*
-
-[Yaşam Yolu 3 ve bileşik sayılar — 12/3, 21/3, 30/3](https://drelifdemirugur.com/tr/blog/yasam-yolu-3-bilesik-sayilar-30-3)`,
+`,
       en: `Some questions follow us for years. Why do I keep meeting the same lesson in different costumes? Why do certain doors open for me easily while others never move? Why does my heart keep pulling in one direction while my mind points to another?
 
 Numerology does not answer these questions. What it offers is a mirror, and in that mirror, a rhythm: the one the intelligence of the universe hummed on the day you were born. Numerologists call it your life path number.
@@ -792,8 +777,7 @@ Maybe that's the most beautiful thing about this practice: it doesn't dress you 
 Calculate your path. Then look not only at its shadow but at its gift. Every road waits for its traveler.
 
 *This article is intended for cultural and personal reflection; it makes no scientific or predictive claims.*
-
-[Life Path 3 and compound numbers — 12/3, 21/3, 30/3](https://drelifdemirugur.com/en/blog/yasam-yolu-3-bilesik-sayilar-30-3)`,
+`,
     },
   },
 ];
