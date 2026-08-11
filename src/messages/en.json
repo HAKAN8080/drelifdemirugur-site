@@ -46,38 +46,57 @@
     "honorsHeading": "Honors and Awards",
     "honors": [
       {
+        "title": "Brandon Hall Awards — HR, Coaching & Mentoring",
+        "issuer": "Brandon Hall · November 2025",
+        "affiliation": "Associated with FLO Group",
+        "description": ""
+      },
+      {
+        "title": "Personal Development Volunteers",
+        "issuer": "PERYÖN · November 2025",
+        "affiliation": "Associated with FLO Group",
+        "description": "PERYÖN Awards attendance."
+      },
+      {
         "title": "ICF ÖRAV — Support Education, Invest in the Future",
         "issuer": "ICF Global · September 2019",
+        "affiliation": "Associated with ICF Turkey Chapter",
         "description": "Volunteer coaching and mentoring for Ministry of Education teachers."
       },
       {
         "title": "ICF Runs for Good",
         "issuer": "ICF Global · September 2019",
+        "affiliation": "Associated with ICF Turkey Chapter",
         "description": "Volunteer fundraising runs for children’s education."
       },
       {
         "title": "TEGV Development Ladder",
         "issuer": "ICF Global · September 2019",
+        "affiliation": "Associated with ICF Turkey Chapter",
         "description": "Volunteer coaching and mentoring for TEGV teachers."
       },
       {
         "title": "Certificate of Appreciation",
         "issuer": "MEF Schools General Management · June 2011",
+        "affiliation": "Associated with MEF International Schools",
         "description": "MSc mathematics teacher."
       },
       {
         "title": "Certificate of Appreciation and Achievement",
         "issuer": "TÜBİTAK – Ministry of Education, This Is My Work Project Competition · May 2009",
+        "affiliation": "Associated with Avrupa Eğitim Vakfı",
         "description": ""
       },
       {
         "title": "Certificate of Appreciation",
         "issuer": "Bakırköy District Education Directorate · June 2008",
+        "affiliation": "Associated with Kültür College",
         "description": "MSc mathematics teacher."
       },
       {
         "title": "Certificate of Appreciation",
         "issuer": "Kültür College Management · April 2008",
+        "affiliation": "Associated with Kültür College",
         "description": "MSc mathematics teacher."
       }
     ]

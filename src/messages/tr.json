@@ -46,38 +46,57 @@
     "honorsHeading": "Onur ve Ödüller",
     "honors": [
       {
+        "title": "Brandon Hall Awards — HR, Coaching & Mentoring",
+        "issuer": "Brandon Hall · Kasım 2025",
+        "affiliation": "FLO Group ile ilişkili",
+        "description": ""
+      },
+      {
+        "title": "Kişisel Gelişim Gönüllüleri",
+        "issuer": "PERYÖN · Kasım 2025",
+        "affiliation": "FLO Group ile ilişkili",
+        "description": "PERYÖN Ödülleri katılımı."
+      },
+      {
         "title": "ICF ÖRAV Eğitime Destek, Geleceğe Yatırım",
         "issuer": "ICF Global · Eylül 2019",
+        "affiliation": "ICF Turkey Chapter ile ilişkili",
         "description": "MEB öğretmenlerine gönüllü koçluk ve mentorluk."
       },
       {
         "title": "ICF İyiliğe Koşuyor",
         "issuer": "ICF Global · Eylül 2019",
+        "affiliation": "ICF Turkey Chapter ile ilişkili",
         "description": "Çocukların eğitimi için gönüllü bağış koşuları."
       },
       {
         "title": "TEGV Gelişim Merdiveni",
         "issuer": "ICF Global · Eylül 2019",
+        "affiliation": "ICF Turkey Chapter ile ilişkili",
         "description": "TEGV öğretmenlerine gönüllü koçluk ve mentorluk."
       },
       {
         "title": "Teşekkür Belgesi",
         "issuer": "MEF Okulları Genel Müdürlüğü · Haziran 2011",
+        "affiliation": "MEF International Schools ile ilişkili",
         "description": "Yüksek lisanslı matematik öğretmeni."
       },
       {
         "title": "Teşekkür ve Başarı Belgesi",
         "issuer": "TÜBİTAK – MEB, Bu Benim Eserim Proje Yarışması · Mayıs 2009",
+        "affiliation": "Avrupa Eğitim Vakfı ile ilişkili",
         "description": ""
       },
       {
         "title": "Teşekkür Belgesi",
         "issuer": "Bakırköy İlçe Millî Eğitim Müdürlüğü · Haziran 2008",
+        "affiliation": "Kültür Koleji ile ilişkili",
         "description": "Yüksek lisanslı matematik öğretmeni."
       },
       {
         "title": "Teşekkür Belgesi",
         "issuer": "Kültür Koleji Yönetimi · Nisan 2008",
+        "affiliation": "Kültür Koleji ile ilişkili",
         "description": "Yüksek lisanslı matematik öğretmeni."
       }
     ]

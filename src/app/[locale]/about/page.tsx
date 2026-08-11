@@ -6,6 +6,7 @@ type Props = { params: Promise<{ locale: string }> };
 type Honor = {
   title: string;
   issuer: string;
+  affiliation?: string;
   description: string;
 };
 
@@ -61,6 +62,9 @@ export default async function AboutPage({ params }: Props) {
                 <p className="mt-1 text-sm font-medium !text-purple-600">
                   {honor.issuer}
                 </p>
+                {honor.affiliation ? (
+                  <p className="mt-1 text-sm italic">{honor.affiliation}</p>
+                ) : null}
                 {honor.description ? (
                   <p className="mt-1 text-sm">{honor.description}</p>
                 ) : null}
