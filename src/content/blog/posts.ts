@@ -30,6 +30,176 @@ export type BlogPost = {
  */
 export const posts: BlogPost[] = [
   {
+    slug: "odunc-isik-aynalanmak-uzerine-bir-mesel",
+    date: "2026-08-25",
+    tags: [
+      "psikoloji",
+      "psychology",
+      "kişisel gelişim",
+      "personal development",
+      "yaratıcılık",
+      "creativity",
+      "mesel",
+      "parable",
+      "aynalama",
+      "mirroring",
+      "Elif Nile",
+      "Aurora",
+    ],
+    title: {
+      tr: "Ödünç Işık: Aynalanmak Üzerine Bir Mesel",
+      en: "Borrowed Light: A Parable on Mirroring",
+    },
+    description: {
+      tr: "Kelimeleriniz başka bir vitrinde belirdiğinde: bir kuyu, bir ayna ve kimsenin kopyalayamayacağı kaynak üzerine eski bir hikâye.",
+      en: "When your words appear in someone else’s shop window: an old story about a well, a mirror, and a source no one can copy.",
+    },
+    body: {
+      tr: `Eski bir hikâye anlatılır.
+
+Bir kasabanın kıyısında, suyu hiç eksilmeyen bir kuyu varmış. Kim gelirse gelsin, kuyu suyunu esirgemezmiş. Testisi olan testisiyle, avucu olan avucuyla alırmış payını.
+
+Günlerden bir gün, kasabaya bir yolcu gelmiş. Yolcunun testisi yokmuş; ama parlak bir aynası varmış. Kuyunun başına oturmuş ve aynasını suya tutmuş. Aynada su gibi görünen bir parıltı belirmiş. Yolcu bu parıltıyı kasaba kasaba gezdirip "bakın, bende de su var" demiş.
+
+Bir süre işe yaramış bu. Uzaktan bakan, aynadaki parıltıyı sudan ayıramamış.
+
+Ama ayna su tutmaz.
+
+İçen olmamış ondan. Susuzluğu dindirmemiş. Ve güneş her yön değiştirdiğinde, yolcunun yeniden bir kuyu bulması gerekmiş.
+
+Kuyuya gelince... Kuyu, suyunu vermeye devam etmiş. Çünkü kuyunun bilgeliği şuymuş: aynaya yansıyan, suyun sadece yüzeyiymiş. Kaynak, toprağın derinliklerinde, kimsenin kopyalayamayacağı yerdeymiş.
+
+## Hepimizin tanıdığı bir an
+
+Bu meselin modern hayatta bir karşılığı var ve çoğumuz bir versiyonunu yaşamışızdır.
+
+Emek vererek olgunlaştırdığınız bir fikri, yıllarınıza mal olmuş bir bakış açısını, hatta kendi cümlelerinizi bir gün başka bir vitrinde görürsünüz. Şaşırırsınız. Belki içiniz burkulur. "Bu benim kuyumdan çıkmıştı" dersiniz sessizce.
+
+Bu deneyim, sanıldığından daha yaygındır ve iki tarafı da anlamayı hak eder.
+
+## Psikolojide aynalama
+
+Psikolojide *aynalama* (mirroring), kişinin karşısındaki insanın ilgi alanlarını, ifade biçimini, hatta değerlerini yansıtarak bağ kurmaya çalışması olarak tanımlanır. Küçük dozlarda son derece insani ve zararsızdır; empati dediğimiz şeyin akrabasıdır. Hepimiz sevdiğimiz insanlardan kelimeler, jestler, bakış açıları ödünç alırız.
+
+Mesele, ödünç almanın bir kimlik stratejisine dönüştüğü yerde başlar. Kendi iç kaynağıyla henüz bağ kuramamış bir insan, güvenliğini başkalarının parıltısında arayabilir. Bunu yapan kişi çoğu zaman kötü niyetli bir plan yürütmez; içindeki boşluğun farkında bile olmayabilir. Aynası, taşıyabildiği tek şeydir.
+
+Bunu anlamak, olanı onaylamak anlamına gelmez. Ama anlamak, öfkeyi dönüştürür: karşınızdaki bir düşman değil, kendi kaynağını henüz bulamamış bir insandır.
+
+## Kaynak kopyalanamaz
+
+Burada, üretmeye devam eden herkesin hatırlaması gereken sessiz bir gerçek var.
+
+Kelimeler kopyalanabilir. Üslup taklit edilebilir. Bir fikir, başka bir ambalajda yeniden sunulabilir. Ama o kelimeleri doğuran şey; yaşanmışlık, iç görü, yılların damıttığı o bakış... o, toprağın altındaki kaynaktır ve yer değiştirmez.
+
+Kopya, her zaman bir fotoğraftır: çekildiği anın görüntüsünü taşır ama akmaz. Kaynak ise akmaya devam eder; yarın yeni bir cümle, yeni bir görüş, yeni bir derinlik üretir. Aradaki farkı zaman, hiç zorlanmadan gösterir.
+
+## Peki ne yapmalı?
+
+Böyle bir durumla karşılaşan kişi için üç adım öneriyorum; üçü de öfkeye değil, öz-değere yaslanır:
+
+**1. Fark edin, ama peşine düşmeyin.** Olanı görmek önemlidir; görmezden gelmek değil. Ama gördükten sonra zihninizi oraya taşımak, orada gece gündüz dönen bir iç konuşma kurmak, enerjinizi kaynaktan alıp kopyaya yatırmaktır. Kopyayı izleyerek geçen her saat, üretilmemiş bir sayfadır.
+
+**2. Sınırlarınızı şefkatle ama netlikle çizin.** Cömertlik bir erdemdir; sınırsızlık ise değildir. Kiminle ne derinlikte paylaşım yapacağınızı seçmek, cimrilik değil öz-saygıdır. "Herkese açık olan" ile "emeğimin mutfağı" arasına bir eşik koymak, kuyunun ağzına bir taş dizmek gibidir: su yine verilir ama kaynak korunur.
+
+**3. Üretmeye dönün.** Özgünlüğün en güçlü koruması, üretkenliğin kendisidir. Kimse sizin yarın yazacağınız cümleyi bugünden kopyalayamaz. Kaynak aktıkça, kopya ile arasındaki mesafe kendiliğinden açılır.
+
+## Kapanış
+
+Kuyu, aynaya kızmamış.
+
+Sadece derinleşmeye devam etmiş.
+
+Sizin de emeğinizin başka vitrinlerde dolaştığını gördüğünüz oldu mu? O anda neyi seçtiniz: kopyayı izlemeyi mi, kaynağa dönmeyi mi?
+
+---
+
+Bir dilin unutulmasıyla başlayan, bir uyanışla devam eden yolculuk.
+
+**AURORA** · Elif Demir Uğur
+
+- Kobo Türkçe: [https://www.kobo.com/tr/tr/ebook/aurora-183](https://www.kobo.com/tr/tr/ebook/aurora-183)
+- Kobo English: [https://www.kobo.com/ebook/aurora-182](https://www.kobo.com/ebook/aurora-182)
+- Amazon Kindle: [https://www.amazon.com/dp/B0HC2FWZ74](https://www.amazon.com/dp/B0HC2FWZ74)
+- Thorius TR: [https://kitaplik.thorius.com.tr/kitap/aurora](https://kitaplik.thorius.com.tr/kitap/aurora)
+- Thorius EN: [https://kitaplik.thorius.com.tr/kitap/aurora-en](https://kitaplik.thorius.com.tr/kitap/aurora-en)
+- Google Play TR: [https://play.google.com/store/books/details/Elif_Demir_U%C4%9Fur_Aurora?id=FOn7EQAAQBAJ&hl=tr](https://play.google.com/store/books/details/Elif_Demir_U%C4%9Fur_Aurora?id=FOn7EQAAQBAJ&hl=tr)
+- Google Play EN: [https://play.google.com/store/books/details/Elif_Demir_U%C4%9Fur_Aurora?id=7-f7EQAAQBAJ&hl=tr](https://play.google.com/store/books/details/Elif_Demir_U%C4%9Fur_Aurora?id=7-f7EQAAQBAJ&hl=tr)
+
+*Bu yazıdaki hikâye bir meseldir; herhangi bir gerçek kişiyi, kurumu veya hesabı tarif etmez. Aynalama bölümü genel psikoloji literatürüne dayanan eğitici bir özettir; hiç kimse hakkında tanı veya değerlendirme içermez.*`,
+      en: `An old story is told.
+
+At the edge of a town there was a well whose water never ran dry. Whoever came, the well did not withhold its water. Those with a jug took their share by jug; those with only a palm took it by palm.
+
+One day a traveler arrived. The traveler had no jug — only a bright mirror. He sat at the well’s mouth and held the mirror to the water. A gleam appeared in the mirror that looked like water. The traveler carried that gleam from town to town and said, “Look, I have water too.”
+
+For a while it worked. From a distance, people could not tell the gleam in the mirror from water.
+
+But a mirror does not hold water.
+
+No one drank from it. It did not quench thirst. And every time the sun shifted, the traveler had to find another well.
+
+As for the well… the well kept giving its water. For the wisdom of the well was this: what the mirror reflected was only the surface. The source lay in the depths of the earth, in a place no one could copy.
+
+## A moment we all recognize
+
+This parable has a counterpart in modern life, and most of us have lived a version of it.
+
+An idea you matured through labor, a perspective that cost you years, even your own sentences — one day you see them in someone else’s shop window. You are startled. Perhaps something tightens inside. Quietly you say, “That came from my well.”
+
+This experience is more common than it seems, and both sides deserve to be understood.
+
+## Mirroring in psychology
+
+In psychology, *mirroring* is defined as a person’s attempt to connect by reflecting the interests, manner of expression, even the values of the person across from them. In small doses it is deeply human and harmless; it is a relative of what we call empathy. We all borrow words, gestures, and ways of seeing from people we love.
+
+The trouble begins where borrowing becomes an identity strategy. A person who has not yet connected with their inner source may seek safety in someone else’s gleam. The person doing this is often not running a malicious plan; they may not even notice the emptiness inside. The mirror is the only thing they can carry.
+
+Understanding this does not mean approving what happened. But understanding transforms anger: the person opposite you is not an enemy — they are a human being who has not yet found their own source.
+
+## The source cannot be copied
+
+Here is a quiet truth everyone who keeps creating needs to remember.
+
+Words can be copied. Style can be imitated. An idea can be repackaged and offered again. But what births those words — lived experience, insight, the gaze distilled by years — that is the source under the earth, and it does not change place.
+
+A copy is always a photograph: it carries the image of the moment it was taken, but it does not flow. The source keeps flowing; tomorrow it produces a new sentence, a new view, a new depth. Time shows the difference without effort.
+
+## So what should one do?
+
+For anyone who meets this situation, I suggest three steps; all three lean on self-worth, not anger:
+
+**1. Notice it, but do not chase it.** Seeing what happened matters; looking away does not. But after seeing, moving your mind there, building an inner conversation that turns there day and night, is taking your energy from the source and investing it in the copy. Every hour spent watching the copy is a page unwritten.
+
+**2. Draw your boundaries with compassion and clarity.** Generosity is a virtue; boundlessness is not. Choosing with whom and at what depth you share is not stinginess — it is self-respect. Placing a threshold between “what is open to everyone” and “the kitchen of my labor” is like setting stones at the mouth of the well: water is still given, but the source is protected.
+
+**3. Return to making.** The strongest protection of originality is productivity itself. No one can copy today the sentence you will write tomorrow. As the source flows, the distance from the copy opens on its own.
+
+## Closing
+
+The well did not grow angry at the mirror.
+
+It only kept going deeper.
+
+Have you also seen your labor circulate in other shop windows? In that moment, what did you choose: watching the copy, or returning to the source?
+
+---
+
+A journey that begins with the forgetting of a language and continues with an awakening.
+
+**AURORA** · Elif Demir Uğur
+
+- Kobo Turkish: [https://www.kobo.com/tr/tr/ebook/aurora-183](https://www.kobo.com/tr/tr/ebook/aurora-183)
+- Kobo English: [https://www.kobo.com/ebook/aurora-182](https://www.kobo.com/ebook/aurora-182)
+- Amazon Kindle: [https://www.amazon.com/dp/B0HC2FWZ74](https://www.amazon.com/dp/B0HC2FWZ74)
+- Thorius TR: [https://kitaplik.thorius.com.tr/kitap/aurora](https://kitaplik.thorius.com.tr/kitap/aurora)
+- Thorius EN: [https://kitaplik.thorius.com.tr/kitap/aurora-en](https://kitaplik.thorius.com.tr/kitap/aurora-en)
+- Google Play TR: [https://play.google.com/store/books/details/Elif_Demir_U%C4%9Fur_Aurora?id=FOn7EQAAQBAJ&hl=tr](https://play.google.com/store/books/details/Elif_Demir_U%C4%9Fur_Aurora?id=FOn7EQAAQBAJ&hl=tr)
+- Google Play EN: [https://play.google.com/store/books/details/Elif_Demir_U%C4%9Fur_Aurora?id=7-f7EQAAQBAJ&hl=tr](https://play.google.com/store/books/details/Elif_Demir_U%C4%9Fur_Aurora?id=7-f7EQAAQBAJ&hl=tr)
+
+*The story in this essay is a parable; it does not describe any real person, institution, or account. The section on mirroring is an educational summary based on general psychology literature; it contains no diagnosis or evaluation of anyone.*`,
+    },
+  },
+  {
     slug: "yasam-yolu-3-bilesik-sayilar-30-3",
     date: "2026-08-09",
     tags: [
