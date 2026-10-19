@@ -1,15 +1,19 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./language-switcher";
+import { TrainingsMenu } from "./trainings-menu";
 
 export function SiteHeader() {
   const t = useTranslations("nav");
   const meta = useTranslations("meta");
 
-  const links = [
+  const linksBeforeTrainings = [
     { href: "/", label: t("home") },
     { href: "/about", label: t("about") },
     { href: "/professional", label: t("professional") },
+  ] as const;
+
+  const linksAfterTrainings = [
     { href: "/coaching", label: t("coaching") },
     { href: "/coaching/students", label: t("studentCoaching") },
     { href: "/publications", label: t("publications") },
@@ -29,7 +33,17 @@ export function SiteHeader() {
           {meta("siteName")}
         </Link>
         <nav className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-cloud-muted">
-          {links.map((l) => (
+          {linksBeforeTrainings.map((l) => (
+            <Link
+              key={l.href}
+              href={l.href}
+              className="transition hover:text-purple-600"
+            >
+              {l.label}
+            </Link>
+          ))}
+          <TrainingsMenu />
+          {linksAfterTrainings.map((l) => (
             <Link
               key={l.href}
               href={l.href}
