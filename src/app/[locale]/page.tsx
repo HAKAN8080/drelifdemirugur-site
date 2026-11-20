@@ -57,6 +57,9 @@ export default async function HomePage({ params }: Props) {
             <h1 className="font-[family-name:var(--font-display)] text-4xl leading-[1.1] text-cloud-ink sm:text-5xl md:text-6xl">
               {meta("siteName")}
             </h1>
+            <p className="mt-4 text-sm font-medium tracking-[0.08em] text-purple-600 md:text-base">
+              {t("subtitle")}
+            </p>
             <p className="mt-5 font-[family-name:var(--font-display)] text-xl text-cloud-ink/90 md:text-2xl">
               {t("headline")}
             </p>
