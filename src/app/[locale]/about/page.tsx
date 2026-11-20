@@ -33,6 +33,12 @@ export default async function AboutPage({ params }: Props) {
           <p className="mt-4 text-lg text-cloud-ink/90">{t("intro")}</p>
         </div>
         <div>
+          <h2>{t("polymathHeading")}</h2>
+          {(t.raw("polymath") as string[]).map((paragraph) => (
+            <p key={paragraph.slice(0, 32)}>{paragraph}</p>
+          ))}
+        </div>
+        <div>
           <h2>{t("titlesHeading")}</h2>
           <p className="!text-cloud-ink font-medium">{t("titles")}</p>
         </div>
