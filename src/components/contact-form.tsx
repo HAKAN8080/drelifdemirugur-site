@@ -121,7 +121,7 @@ export function ContactForm() {
     const body = encodeURIComponent(
       `${message}\n\n—\n${name}\n${email}`,
     );
-    window.location.href = `mailto:info@drelifdemirugur.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:elif.ugur@thorius.com.tr?subject=${subject}&body=${body}`;
   }
 
   return (

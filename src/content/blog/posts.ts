@@ -30,6 +30,97 @@ export type BlogPost = {
  */
 export const posts: BlogPost[] = [
   {
+    slug: "icsel-ekosistem-1-hucre-zari-ve-anlar",
+    date: "2026-11-20",
+    tags: [
+      "İçsel Ekosistem",
+      "Inner Ecosystem",
+      "koçluk",
+      "coaching",
+      "liderlik",
+      "leadership",
+      "kişisel gelişim",
+      "personal development",
+      "iş-yaşam dengesi",
+      "work-life balance",
+      "tükenmişlik",
+      "burnout",
+      "karar alma",
+      "decision making",
+      "biyopsikososyal yaklaşım",
+      "biopsychosocial approach",
+      "Dr. Elif Demir Uğur",
+    ],
+    title: {
+      tr: "İçsel Ekosistem Serisi 1/5 — Dış Dünyayla Görünmez Sınırımız: Hücre Zarı ve \"Anlar\"",
+      en: "Inner Ecosystem Series 1/5 — Our Invisible Border with the Outside World: The Cell Membrane and \"Moments\"",
+    },
+    description: {
+      tr: "Tükenmişlik, zor kararlar ve kurulamayan iş-yaşam dengesi: sorun sandığınızdan daha derinde olabilir. Hücrenin seçici geçirgen zarı gibi, hayatımıza neyi alıp neyi dışarıda bıraktığımız eşik: Anlar.",
+      en: "Burnout, hard decisions, and a work-life balance that never settles: the problem may sit deeper than you think. Like a cell's selectively permeable membrane, the threshold where we choose what to let in and what to keep out: Moments.",
+    },
+    body: {
+      tr: `Sürekli bir tükenmişlik hissi yaşıyor, kritik kararlar almakta zorlanıyor ya da iş-yaşam dengesini bir türlü kuramıyorsanız; sorun sandığınızdan daha derin bir yerde olabilir.
+
+Çoğu zaman profesyonel ya da özel hayatımızda aynı döngülerin içinde sıkışıp kalmak, meselelere tek bir pencereden bakmamızdan kaynaklanır. Oysa sürdürülebilir bir dönüşüm ve gelişim sadece zihni susturmakla ya da sadece bedene odaklanmakla gerçekleşmez.
+
+İnsan; bedeni, zihni, duyguları, ruhu ve kurduğu ilişkilerle tek bir bütündür.
+
+## Biyopsikososyal bir bütün olarak insan
+
+Modern bilimin "biyopsikososyal model" olarak tanımladığı, benim de yıllardır çalışmalarımda temel alıp üzerine kendi metodolojimi inşa ettiğim yaklaşıma göre; çevremizle kurduğumuz iletişim, içinde bulunduğumuz ekosistemler ve kişilik dinamiklerimiz doğrudan yaşam ve iş kalitemizi belirler.
+
+## Görünmez eşik: Anlar
+
+Tüm bu faktörleri birbirine bağlayan görünmez ve ince bir eşik var, tıpkı bir hücrenin seçici geçirgen zarı gibi: **Anlar.**
+
+Çalışma modelime özgü bir yaklaşımla tam da bu geçiş alanında duruyor, hayatınıza ve zihninize neyi içeri alıp neyi dışarıda bırakacağınızı kişiye özgü olarak keşfediyoruz.
+
+Unutmayın, seçim her zaman kişiye özeldir.
+
+Üstelik yeni açılımlara ve sağlıklı kararlara yer açabilmek için tıpkı bir bilgisayarda olduğu gibi, arka planda açık kalan ve enerjimizi tüketen miadı dolmuş dosyaları da kapatmak gerekir.
+
+İlişkisel ve profesyonel alanınızdaki bu görünmeyen dinamikleri fark ettiğinizde, zihinsel sisin dağıldığını ve kendi dengenizi yeniden inşa edebildiğinizi göreceksiniz.
+
+**Artık hayatınızda yeni bir DENGE kurma zamanı.**
+
+---
+
+Bu döngüleri kırmak ve ilk adımı atmak için [İletişim sayfasından](/tr/contact) birebir koçluk görüşmesi için randevu talebinizi oluşturabilirsiniz.
+
+*Not: Görüşme takvimi uygunluk durumuna göre ekibimiz tarafından değerlendirilip planlanmaktadır.*`,
+      en: `If you feel constantly burned out, struggle to make critical decisions, or simply cannot find a work-life balance, the problem may sit somewhere deeper than you think.
+
+Very often, staying stuck in the same cycles in our professional or private lives comes from looking at things through a single window. Yet sustainable transformation and growth do not happen by quieting the mind alone, or by focusing on the body alone.
+
+A human being is one whole: body, mind, emotions, soul, and the relationships they build.
+
+## The human being as a biopsychosocial whole
+
+According to the approach modern science calls the "biopsychosocial model" (the one I have used for years as the foundation of my work, and on which I have built my own methodology), the way we communicate with our surroundings, the ecosystems we live in, and our personality dynamics directly shape the quality of our life and work.
+
+## The invisible threshold: Moments
+
+There is a thin, invisible threshold that connects all of these factors, much like a cell's selectively permeable membrane: **Moments.**
+
+With an approach specific to my working model, we stand right in this passage and discover, in a way unique to each person, what to let into your life and mind and what to leave outside.
+
+Remember, the choice is always personal.
+
+And to make room for new openings and healthy decisions, just as on a computer, we also need to close the outdated files left running in the background that drain our energy.
+
+When you notice these unseen dynamics in your relational and professional life, you will see the mental fog lift and find that you can rebuild your own balance.
+
+**It is time to build a new BALANCE in your life.**
+
+---
+
+To break these cycles and take the first step, you can request a one-to-one coaching session through the [Contact page](/en/contact).
+
+*Note: Session scheduling is reviewed and planned by our team according to availability.*`,
+    },
+  },
+  {
     slug: "odunc-isik-aynalanmak-uzerine-bir-mesel",
     date: "2026-08-25",
     tags: [
