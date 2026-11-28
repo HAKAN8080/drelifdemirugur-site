@@ -164,3 +164,43 @@ a {
     color: #0a1a3a;
   }
 }
+
+/* Home hero — scrolling tagline */
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 18s linear infinite;
+}
+
+.marquee-track span {
+  padding-right: 3rem;
+  white-space: nowrap;
+  font-family: var(--font-display), serif;
+  font-style: italic;
+  font-size: 1.125rem;
+  color: var(--color-purple-600, #7c3aed);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+  .marquee-track span + span {
+    display: none;
+  }
+}

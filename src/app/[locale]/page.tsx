@@ -22,27 +22,6 @@ export default async function HomePage({ params }: Props) {
 
   return (
     <div>
-      <section className="relative overflow-hidden bg-[#0a1a3a]">
-        <Link
-          href="/books"
-          aria-label={t("auroraBadgeAria")}
-          className="group relative block"
-        >
-          <video
-            className="aspect-[16/7] w-full object-cover sm:aspect-[21/8] md:aspect-[24/8]"
-            src="/vid.mp4"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="metadata"
-          />
-          <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/15 transition group-hover:bg-black/25">
-            <span className="aurora-badge">{t("auroraBadge")}</span>
-          </div>
-        </Link>
-      </section>
-
       <section className="relative min-h-[85vh] overflow-hidden">
         <div className="absolute inset-0 md:left-[42%]">
           <Portrait className="h-full min-h-[50vh] w-full md:min-h-full" priority />
@@ -63,6 +42,13 @@ export default async function HomePage({ params }: Props) {
             <p className="mt-4 max-w-md text-base text-cloud-muted md:text-lg">
               {t("lead")}
             </p>
+            <div className="marquee mt-4 max-w-md">
+              <span className="sr-only">{t("marquee")}</span>
+              <div className="marquee-track" aria-hidden="true">
+                <span>{t("marquee")}</span>
+                <span>{t("marquee")}</span>
+              </div>
+            </div>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="/professional" className="btn-primary">
                 {t("ctaProfessional")}
@@ -73,6 +59,27 @@ export default async function HomePage({ params }: Props) {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="relative overflow-hidden bg-[#0a1a3a]">
+        <Link
+          href="/books"
+          aria-label={t("auroraBadgeAria")}
+          className="group relative block"
+        >
+          <video
+            className="aspect-[16/7] w-full object-cover sm:aspect-[21/8] md:aspect-[24/8]"
+            src="/vid.mp4"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+          />
+          <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-black/15 transition group-hover:bg-black/25">
+            <span className="aurora-badge">{t("auroraBadge")}</span>
+          </div>
+        </Link>
       </section>
 
       <section className="mx-auto grid max-w-6xl gap-10 px-5 py-16 md:grid-cols-2 md:gap-16 md:px-8 md:py-24">
